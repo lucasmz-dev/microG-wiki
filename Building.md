@@ -1,3 +1,10 @@
+# Dependencies
+You need the following prerequisites to build `GmsCore`:
+
+1. Due to the use of symlinks, a unix-based operating system is required to build the application. Please notice, that building with other operating systems is not supported.
+2. Your Android-ROM should integrate the `FAKE_PACKAGE_SIGNATURE`-patch, which is required to fully use the features of `GmsCore`.
+3. The build process requires a full-working Android SDK and Java installation.
+
 # Building
 
 It is possible to build the µg-version of Google's `GmsCore` in many different ways. First of all, one should get the source code and all required dependencies:
@@ -15,6 +22,8 @@ In case you want to sign the apk, execute the following commands in the `apk` di
 jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore <keystore> play-services-core-release-unsigned.apk <key name>
 <sdk directory>/build-tools/22.0.0/zipalign -v 4 play-services-core-release-unsigned.apk play-services-core-release.apk
 ```
+
+If you stuck at any step of the building process, take a look at [this](https://gist.github.com/scento/4a2abe0d5f989661a8e2) simple build script for all basic microg components.
 
 ## 2. AOSP
 In case, you want to integrate `GmsCore` into an [AOSP-based ROM build](https://source.android.com/source/initializing.html), you can place the downloaded directory in the subdirectory `/external` of the `repo sync`ed android sources. It is recommended to [patch](https://raw.githubusercontent.com/microg/android_packages_apps_GmsCore/master/android_frameworks_base%2BFAKE_PACKAGE_SIGNATURE.patch) the android distribution to support the "faking" of the original Google Play Services apk signatures. The default android build process will respect `GmsCore` and automatically create an APK on the `/system` partition image.
