@@ -8,7 +8,7 @@ git submodule update --recursive --init
 ```
 
 ## 1. Gradle
-The repository contains all required build scripts for gradle and the wrapper, which is needed to start the build process. First of all, create a new `local.properties`, which contains a `sdk.dir=<path to sdk>` directive. After executing `./gradlew` in the repository directory, the debug and release apks can be found in the directory `play-services-core/build/outputs/apk/`.
+The repository contains all required build scripts for gradle and the wrapper, which is needed to start the build process. Firstly, create a new `local.properties`, which contains a `sdk.dir=<path to sdk>` directive. After executing `./gradlew` in the repository directory, the debug and release apks can be found in the directory `play-services-core/build/outputs/apk/`.
 
 In case you want to sign the apk, execute the following commands in the `apk` directory with your specific configuration:
 ```bash
