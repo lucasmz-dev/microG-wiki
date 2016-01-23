@@ -1,0 +1,15 @@
+
+| *API* | *Status* | *Crashing* | *Issues* | *Notes* |
+| Ads/Analytics | Not Functional | No | Missing most APIs | Will never be a real implementation |
+| Auth | Mostly Functional | No | Minor issues | |
+| Auto | No Work Done | Yes | | |
+| Cast | Not Functional | Maybe | Missing most APIs |  |
+| Drive | No Work Done | Maybe | | |
+| Fitness | No Work Done | Maybe | | |
+| Games | No Work Done | Maybe | | |
+| Cloud Messaging | Fully Functional | No | Connectivity issues | |
+| Location Provider | Fully Functional | No | None | Does not honor AppOps! |
+| Geofencing | Not Working | No | | |
+| Maps API | Partly Functional | No | Minor glitches | |
+| Plus | Partially Functional | Maybe | Missing most APIs | Only basic account information |
+| Wearable | Not Functional | Maybe | Missing most APIs | |
