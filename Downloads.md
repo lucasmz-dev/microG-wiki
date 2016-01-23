@@ -6,7 +6,7 @@ Nightly Releases: [Latest](http://files.brnmod.rocks/apps/GmsCore/Latest/play-se
 ### GsfProxy
 Standard Releases: [Github release page](https://github.com/microg/android_packages_apps_GsfProxy/releases) or [XDA Thread](http://forum.xda-developers.com/android/apps-games/app-microg-gmscore-floss-play-services-t3217616)
 
-Nightly Releases: [Latest](http://files.brnmod.rocks/apps/GsfProxy/Latest/play-services-core-debug.apk) or [Other Builds](http://files.brnmod.rocks/apps/GsfProxy/)
+Nightly Releases: [Latest](http://files.brnmod.rocks/apps/GsfProxy/Latest/services-framework-proxy-debug.apk) or [Other Builds](http://files.brnmod.rocks/apps/GsfProxy/)
 
 ### FakeStore
 Standard Releases: [GitHub release page](https://github.com/microg/android_packages_apps_FakeStore/releases) or [XDA Thread](http://forum.xda-developers.com/android/apps-games/app-microg-gmscore-floss-play-services-t3217616)
