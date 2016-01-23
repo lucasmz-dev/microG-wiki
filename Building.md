@@ -2,7 +2,7 @@
 You need the following prerequisites to build *GmsCore*:
 
 1. Due to the use of symlinks, a unix-based operating system is required to build the application. Please notice, that building with other operating systems is not supported.
-2. Your Android-ROM should integrate the `FAKE_PACKAGE_SIGNATURE`-patch, which is required to fully use the features of *GmsCore*.
+2. Your Android-ROM should integrate the `FAKE_PACKAGE_SIGNATURE`-patch, which is required to fully use the features of *GmsCore*. See "Signature Spoofing" for details.
 3. The build process requires a full-working Android SDK and Java installation.
 
 # Building
