@@ -7,7 +7,7 @@ You need the following prerequisites to build *GmsCore*:
 
 # Building
 
-It is possible to build the µg-version of Google's *GmsCore* in many different ways:
+Prebuilt libraries of vtm are included within ./libs. It is possible to build the microG version of Google's *GmsCore* in many different ways:
 
 ## 1. Script
 You can use this small bash script, which automates all required steps to build *GmsCore*:
