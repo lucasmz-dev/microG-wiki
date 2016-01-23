@@ -1,5 +1,3 @@
-Signature Spoofing
-------------------
 You need a ROM that supports signature spoofing. Some custom ROMs are patched to support signature spoofing out of the box, however most ROMs will require a patch or a Xposed module. Please ask your ROM developer if unsure.
 
 The following ROMs have out-of-box support for signature spoofing. **This feature has to be enabled at the bottom of the developer settings first.**
