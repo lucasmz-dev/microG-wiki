@@ -1,15 +1,15 @@
 
-| *API* | *Status* | *Crashing* | *Issues* | *Notes* |
-| Ads/Analytics | Not Functional | No | Missing most APIs | Will never be a real implementation |
-| Auth | Mostly Functional | No | Minor issues | |
-| Auto | No Work Done | Yes | | |
-| Cast | Not Functional | Maybe | Missing most APIs |  |
-| Drive | No Work Done | Maybe | | |
-| Fitness | No Work Done | Maybe | | |
-| Games | No Work Done | Maybe | | |
-| Cloud Messaging | Fully Functional | No | Connectivity issues | |
-| Location Provider | Fully Functional | No | None | Does not honor AppOps! |
-| Geofencing | Not Working | No | | |
-| Maps API | Partly Functional | No | Minor glitches | |
-| Plus | Partially Functional | Maybe | Missing most APIs | Only basic account information |
-| Wearable | Not Functional | Maybe | Missing most APIs | |
+| *API* | *Functionality* | *Crashing* | *Issues* |
+| Ads/Analytics | :x: None | :white_check_mark: No | Will never be a real implementation | 
+| Auth | :ballot_box_with_check: Most | :white_check_mark: No | Minor issues |
+| Auto | :x: None | :x: Yes | |
+| Cast | :x: None | :x: Yes | Missing most APIs |
+| Drive | :x: None | :warning: Maybe | |
+| Fitness | :x: None | :warning: Maybe | |
+| Games | :x: None | :warning: Maybe | |
+| Cloud Messaging | :white_check_mark: Full | :white_check_mark: No | Connectivity issues |
+| Location Provider | :white_check_mark: Full | :white_check_mark: No | Does not honor AppOps! |
+| Geofencing | :x: None | :white_check_mark: No | |
+| Maps API | :warning: Partial | :white_check_mark: No | Minor glitches |
+| Plus | :warning: Partial | :warning: Maybe | Only basic account information |
+| Wearable | :x: None | :warning: Maybe | Missing most APIs |
