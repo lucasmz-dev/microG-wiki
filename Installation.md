@@ -1,9 +1,7 @@
 In case you had the Google Play Services previously installed, remove all updates and the packages in `/system/priv-app` of the Google Services `GmsCore`, `GoogleBackupTransport`, `GoogleFeedback`, `GoogleLoginService`, `GoogleOneTimeInitializer`, `GooglePartnerSetup`, `GoogleServicesFramework`, `Phonesky`, `SetupWizard` and `Velvet`. In case you forgot to remove the `GmsCore` updates, you can manually remove these using `adb uninstall com.google.android.gms`. After that, reboot your android device - all privileged GAPPS should be removed.
 
-The installation does not require any modification of the /system partition. All installations should be done using the default app installer included with Android or using `adb install`. This means you need to enable third-party sources or developer mode first. In contrast to Google's version, no system privileges are required.
-
-1. **Install GmsCore.apk** as provided in the download section. If you built *GmsCore* using gradle, use ```adb install <filename>``` on your computer.
-2. **Install GsfProxy.apk** as provided in the download section if you want to use Google Cloud Messaging ("Push-Notifications"). The GsfProxy version does not need to match the GmsCore.apk version.
+1. **Install GmsCore.apk** as provided in the download section. If you built *GmsCore* using gradle, use ```adb push <filename> /system/priv-app/<destination>``` on your computer.
+2. **Install GsfProxy.apk** as provided in the download section if you want to use Google Cloud Messaging ("Push-Notifications"). The GsfProxy version does not need to match the GmsCore.apk version and is installable without higher privileges.
 3. **Install a PlayStore APK**
    * If you have BlankStore installed, continue with the next step.
    * If you want to be able to access the Play Store, install BlankStore from the [XDA thread](http://forum.xda-developers.com/showthread.php?t=1715375). It is not a requirement that you set it up correctly and this is not covered by this instructions. If you need help ask in the BlankStore original thread.
