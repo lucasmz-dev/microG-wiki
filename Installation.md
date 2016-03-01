@@ -1,4 +1,4 @@
-In case you had the Google Play Services previously installed, remove all updates and the packages in `/system/priv-app` of the Google Services `GmsCore`, `GoogleBackupTransport`, `GoogleFeedback`, `GoogleLoginService`, `GoogleOneTimeInitializer`, `GooglePartnerSetup`, `GoogleServicesFramework`, `Phonesky`, `SetupWizard` and `Velvet`. In case you forgot to remove the `GmsCore` updates, you can manually remove these using `adb uninstall com.google.android.gms`. After that, reboot your android device - all privileged GAPPS should be removed.
+Check [Prerequisites](https://github.com/microg/android_packages_apps_GmsCore/wiki/Prerequisites) before starting installation.
 
 1. **Install GmsCore.apk** as provided in the download section or the microG F-Droid repository. If you built *GmsCore* using gradle, you can use ```adb install <filename>``` on your computer.
 2. **Install GsfProxy.apk** as provided in the download section if you want to use Google Cloud Messaging ("Push-Notifications"). The GsfProxy version does not need to match the GmsCore.apk version and is installable without higher privileges.
