@@ -1,0 +1,1 @@
+Your System needs to support signature spoofing, see [Signature Spoofing](https://github.com/microg/android_packages_apps_GmsCore/wiki/Signature-Spoofing)
