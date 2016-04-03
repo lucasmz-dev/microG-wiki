@@ -8,4 +8,4 @@ If you have the **Xposed Framework** installed, the following module will enable
 
 If you have **Root**, but are not using Xposed, you can try patching your already-installed ROM using [Needle by moosd](https://github.com/moosd/Needle)
 
-If you are a **ROM developer** or just do **custom builds** for whatever reason, you can download and include the patch from [here](https://gerrit.omnirom.org/#/c/14898/) and [here](https://gerrit.omnirom.org/#/c/14899).
+If you are a **ROM developer** or just do **custom builds** for whatever reason, you can download and include the patch from [here](https://github.com/microg/android_packages_apps_GmsCore/tree/master/patches).
