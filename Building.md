@@ -1,10 +1,10 @@
-# Prerequisites
+## Prerequisites
 
 Due to the use of symlinks, a unix-based operating system is required. Make sure you configured a full-working build setup and have Android SDK and Java installed properly. 
 
 Please note that building with other operating systems is not officially supported.
 
-# Build stand-alone App with Gradle
+## Build stand-alone App with Gradle
 
 Get the source code and clone it into your directory of choice:
 
@@ -16,7 +16,7 @@ git submodule update --recursive --init
 
 The cloned repository contains all required build scripts for gradle and the wrapper, which is needed to start the build process. Make sure you have your `ANDROID_SDK_HOME` and `JAVA_HOME` properly defined in your `~/.profile` or `~/.bashrc`.
 
-To build GmsCore, execute in your cloned directory
+To build _GmsCore_, execute in your cloned directory
 ```bash
 ./gradlew build
 ```
@@ -63,9 +63,9 @@ $ANDROID_SDK_PATH/build-tools/22.0.1/zipalign -v 4 play-services-core-release.ap
 
 Congratulations, you got your `com.google.android.gms.apk`! Now head over to [Installation](https://github.com/microg/android_packages_apps_GmsCore/wiki/Installation).
 
-# Integrate GmsCore in AOSP-based ROM
+## Integrate GmsCore in AOSP-based ROM
 
-In case you want to integrate *GmsCore* into an [AOSP-based ROM build](https://source.android.com/source/initializing.html), you can add the GmsCore repository to your `local_manifests.xml` to keep it updated by `repo`:
+In case you want to integrate _GmsCore_ into an [AOSP-based ROM build](https://source.android.com/source/initializing.html), you can add its repository to your `local_manifests.xml` to keep it updated by `repo`:
 
 ```xml
 <remote  name="github"
@@ -73,7 +73,7 @@ In case you want to integrate *GmsCore* into an [AOSP-based ROM build](https://s
 
 <project path="packages/apps/GmsCore" name="microg/android_packages_apps_GmsCore" remote="github" revision="master" />
 ```
-You may want to add `<project ... />` lines for GsfProxy and FakeStore/BlankStore, too.
+You may want to add `<project ... />` lines for _GsfProxy_ and _FakeStore/BlankStore_, too.
 
 Now edit your `device.mk` in `~/path_to_aosp/device/your_manufacturer/your_model`
 and add the package names you want to include in your build:
@@ -86,3 +86,5 @@ PRODUCT_PACKAGES += \
    FakeStore
 ```
 The default android build process will respect *GmsCore* and automatically create an APK on the `/system` partition image.
+
+Please note, that to make _GmsCore_ work, your ROM has to support [Signature Spoofing](https://github.com/microg/android_packages_apps_GmsCore/wiki/Signature-Spoofing).
