@@ -4,7 +4,7 @@ Due to the use of symlinks, a unix-based operating system is required. Make sure
 
 Please note that building with other operating systems is not officially supported.
 
-# Building with Gradle
+# Build stand-alone App with Gradle
 
 Get the source code and clone it into your directory of choice:
 
@@ -25,6 +25,7 @@ The generated apks can be found in the subdirectory `play-services-core/build/ou
 You may want to sign your apk using the following commands in the `apk` directory with your specific configuration:
 ```bash
 jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore ~/path_to_your/keystore.jks play-services-core-release-unsigned.apk your_keystore_username --signedjar play-services-core-release-signed.apk
+$ANDROID_SDK_HOME/build-tools/23.0.2/zipalign -v 4 play-services-core-release-signed.apk com.google.android.gms.apk
 ```
 Alternatively, you can use this small bash script, which automates all required steps from above:
 
@@ -60,7 +61,7 @@ jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore $KEYSTORES_PATH
 $ANDROID_SDK_PATH/build-tools/22.0.1/zipalign -v 4 play-services-core-release.apk com.google.android.gms.apk
 ```
 
-Congratulations, you got it! Now head over to [Installation](https://github.com/microg/android_packages_apps_GmsCore/wiki/Installation).
+Congratulations, you got your `com.google.android.gms.apk`! Now head over to [Installation](https://github.com/microg/android_packages_apps_GmsCore/wiki/Installation).
 
 # Integrate GmsCore in AOSP-based ROM
 
