@@ -18,7 +18,7 @@ Your Android system needs to support [signature spoofing](https://github.com/mic
 ### Modules
 GmsCore includes the Unified Network Location Provider module (UnifiedNlp) which handles application calls to Google's network location provider. It relies on location and address lookup backends which must be installed separately. For more information on UnifiedNlp and its backends, please refer to the [module's wiki](https://github.com/microg/android_packages_apps_UnifiedNlp/wiki).
 
-For a full-working mircoG setup, you may consider to install a PlayStore replacement application as well as the Services Framework Proxy (GsfProxy) module to provide Google's push messaging service. See also [Installation](https://github.com/microg/android_packages_apps_GmsCore/wiki/Installation).
+For a full-working microG setup, you may consider to install a PlayStore replacement application as well as the Services Framework Proxy (GsfProxy) module to provide Google's push messaging service. See also [Installation](https://github.com/microg/android_packages_apps_GmsCore/wiki/Installation).
 
 ### Project status
 This is alpha-grade software and not yet ready for production use. __Do not use if you don't know what you're doing.__
