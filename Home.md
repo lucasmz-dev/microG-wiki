@@ -2,7 +2,7 @@
 ===
 
 ### Overview
-mircoG GmsCore is a free and open implementation of the Google Play Services Framework. It allows applications calling proprietary Google APIs to run on AOSP-based ROMs like Replicant and CyanogenMod. Acting as a replacement for the closed-source Google Apps (GAPPS), it is a powerful tool to reclaim your privacy while enjoying Android core features.
+microG GmsCore is a free and open implementation of the Google Play Services Framework. It allows applications calling proprietary Google APIs to run on AOSP-based ROMs like Replicant and CyanogenMod. Acting as a replacement for the closed-source Google Apps (GAPPS), it is a powerful tool to reclaim your privacy while enjoying Android core features.
 
 ### Features
 - Opt-in to Google Services and extend application support
