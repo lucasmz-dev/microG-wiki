@@ -13,7 +13,7 @@ microG GmsCore is a free and open implementation of the Google Play Services Fra
 - Free and open source (Apache 2.0 licensed)
 
 ### System Requirements
-Your Android system needs to support [signature spoofing](https://github.com/microg/android_packages_apps_GmsCore/wiki/Signature-Spoofing) so GmsCore can pretend the existence of the official Play Services to applications calling Google APIs. OmniROM 5 and 6 provide out-of-the-box support.
+Your Android system needs to support [signature spoofing](https://github.com/microg/android_packages_apps_GmsCore/wiki/Signature-Spoofing) so GmsCore can pretend the existence of the official Play Services to applications calling Google APIs. OmniROM 5, 6, and MarshRom provide out-of-the-box support.
 
 ### Modules
 GmsCore includes the Unified Network Location Provider module (UnifiedNlp) which handles application calls to Google's network location provider. It relies on location and address lookup backends which must be installed separately. For more information on UnifiedNlp and its backends, please refer to the [module's wiki](https://github.com/microg/android_packages_apps_UnifiedNlp/wiki).
