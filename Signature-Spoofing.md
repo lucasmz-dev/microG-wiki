@@ -2,7 +2,7 @@ You need a ROM that supports signature spoofing. Some custom ROMs are patched to
 
 The following ROMs have out-of-box support for signature spoofing. 
 * [OmniROM 5](http://omnirom.org/) (Must be enabled at the bottom of the developer settings first)
-* [OmniROM 6](http://omnirom.org/) (Must be enabled in Settings>Apps>Advanced(gear icon)>Additional permissions>Spoof signature)
+* [OmniROM 6/7](http://omnirom.org/) (Must be enabled in Settings>Apps>Advanced(gear icon)>Additional permissions>Spoof signature)
 * [MarshRom](http://marshrom.github.io/) (Must be enabled in Settings>Apps>Advanced(gear icon)>Additional permissions>Spoof signature)
 
 If you have the **Xposed Framework** installed, the following module will enable signature spoofing: [FakeGApps by thermatk](http://repo.xposed.info/module/com.thermatk.android.xf.fakegapps)
