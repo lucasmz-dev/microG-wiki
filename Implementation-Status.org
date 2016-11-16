@@ -1,15 +1,19 @@
 
 | *API* | *Functionality* | *Crashing* | *Issues* |
-| Ads/Analytics | :x: None | :white_check_mark: No | Will never be a real implementation | 
-| Auth | :ballot_box_with_check: Most | :white_check_mark: No | Minor issues |
+| Analytics | :ballot_box_with_check: Not intended | :white_check_mark: No | | 
+| Account Authentication | :ballot_box_with_check: Most | :white_check_mark: No | Minor issues |
 | Auto | :x: None | :x: Yes | |
-| Cast | :x: None | :x: Yes | Missing most APIs |
+| Cast | :x: None | :x: Yes | [[https://github.com/microg/android_packages_apps_GmsCore/issues/79][#79]], Missing most APIs |
+| Cloud Messaging | :white_check_mark: Full | :white_check_mark: No | |
 | Drive | :x: None | :warning: Maybe | |
+| Firebase Analytics | :ballot_box_with_check: Not intended | :warning: Maybe | |
 | Fitness | :x: None | :warning: Maybe | |
-| Games | :x: None | :warning: Maybe | |
-| Cloud Messaging | :white_check_mark: Full | :white_check_mark: No | Connectivity issues |
-| Location Provider | :white_check_mark: Full | :white_check_mark: No | Does not honor AppOps! |
+| Fused Locations | :white_check_mark: Full | :white_check_mark: No | Does not honor AppOps! |
+| Games | :x: None | :warning: Maybe | [[https://github.com/microg/android_packages_apps_GmsCore/issues/163][#163]] |
 | Geofencing | :x: None | :white_check_mark: No | |
 | Maps API | :warning: Partial | :white_check_mark: No | Minor glitches |
+| Mobile Ads | :ballot_box_with_check: Not intended | :white_check_mark: No | | 
+| Nearby | :x: None | :warning: Maybe | |
 | Plus | :warning: Partial | :warning: Maybe | Only basic account information |
-| Wearable | :x: None | :warning: Maybe | Missing most APIs |
+| Vision | :x: None | :warning: Maybe | |
+| Wearable | :x: None | :warning: Maybe | [[https://github.com/microg/android_packages_apps_GmsCore/issues/4][#4]], Missing most APIs |
