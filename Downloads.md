@@ -9,12 +9,8 @@ As microG apps are in rapid development, please consider using the F-Droid repos
 ### GmsCore
 Official releases/nightlies: [GitHub release page](https://github.com/microg/android_packages_apps_GmsCore/releases) and [download website](https://microg.org/dl/)
 
-Unofficial nightlies by @[SWW13](https://github.com/SWW13): [Latest](http://files.brnmod.rocks/apps/GmsCore/Latest/play-services-core-debug.apk) or [Other Builds](http://files.brnmod.rocks/apps/GmsCore/)
-
 ### GsfProxy
 Official releases/nightlies: [Github release page](https://github.com/microg/android_packages_apps_GsfProxy/releases) and [download website](https://microg.org/dl/)
-
-Unofficial nightlies by @[SWW13](https://github.com/SWW13): [Latest](http://files.brnmod.rocks/apps/GsfProxy/Latest/services-framework-proxy-debug.apk) or [Other Builds](http://files.brnmod.rocks/apps/GsfProxy/)
 
 ### FakeStore
 Official releases: [GitHub release page](https://github.com/microg/android_packages_apps_FakeStore/releases)
