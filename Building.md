@@ -63,6 +63,33 @@ $ANDROID_SDK_PATH/build-tools/22.0.1/zipalign -v 4 play-services-core-release.ap
 
 Congratulations, you got your `com.google.android.gms.apk`! Now head over to [Installation](https://github.com/microg/android_packages_apps_GmsCore/wiki/Installation).
 
+### Gradle integrated signing
+You can also sign and zipalign directly as part of the `./gradlew build` call. To do so, create a file `play-services-core/user.gradle` with the following content:
+```groovy
+android {
+    signingConfigs {
+        release {
+            storeFile file('~/path_to_your/keystore.jks')
+            storePassword 'keystore password'
+            keyAlias 'key alias'
+            keyPassword 'key password'
+        }
+    }
+
+    buildTypes {
+        /* Optional: sign debug builds with release key
+        debug {
+            signingConfig signingConfigs.release
+        }
+        //*/
+        release {
+            signingConfig signingConfigs.release
+        }
+    }
+}
+```
+When doing so, `./gradlew build` will produce the final file at `play-services-core/build/outputs/apk/play-services-core-release.apk`
+
 ## Integrate GmsCore in AOSP-based ROM
 
 In case you want to integrate _GmsCore_ into an [AOSP-based ROM build](https://source.android.com/source/initializing.html), you can add its repository to your `local_manifests.xml` to keep it updated by `repo`:
