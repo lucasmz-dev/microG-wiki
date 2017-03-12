@@ -58,7 +58,7 @@ cp play-services-core/build/outputs/apk/play-services-core-release-unsigned.apk 
 # Sign APK
 cd ../outputs
 jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore $KEYSTORES_PATH/playservices.jks play-services-core-release.apk playservices
-$ANDROID_SDK_PATH/build-tools/22.0.1/zipalign -v 4 play-services-core-release.apk com.google.android.gms.apk
+$ANDROID_SDK_PATH/build-tools/22.0.1/zipalign -p -v 4 play-services-core-release.apk com.google.android.gms.apk
 ```
 
 Congratulations, you got your `com.google.android.gms.apk`! Now head over to [Installation](https://github.com/microg/android_packages_apps_GmsCore/wiki/Installation).
