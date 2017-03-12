@@ -25,7 +25,7 @@ The generated apks can be found in the subdirectory `play-services-core/build/ou
 You may want to sign your apk using the following commands in the `apk` directory with your specific configuration:
 ```bash
 jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore ~/path_to_your/keystore.jks play-services-core-release-unsigned.apk your_keystore_username --signedjar play-services-core-release-signed.apk
-$ANDROID_SDK_HOME/build-tools/23.0.2/zipalign -v 4 play-services-core-release-signed.apk com.google.android.gms.apk
+$ANDROID_SDK_HOME/build-tools/23.0.2/zipalign -p -v 4 play-services-core-release-signed.apk com.google.android.gms.apk
 ```
 Alternatively, you can use this small bash script, which automates all required steps from above:
 
