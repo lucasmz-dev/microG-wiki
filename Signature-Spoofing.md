@@ -14,4 +14,4 @@ If you have **Root**, but are not using Xposed, you can try patching your alread
 
 If you are a **ROM developer** or just do **custom builds** for whatever reason, you can download and include the patch from [here](https://github.com/microg/android_packages_apps_GmsCore/tree/master/patches).
 
-microG GmsCore tests and diagnoses signature spoofing, but unfortunately it cannot be installed on devices that have Google services. For testing on such devices you can use [Signature Spoofing Checker] (https://github.com/Lanchon/sigspoof-checker) instead.
+microG GmsCore tests and diagnoses signature spoofing, but unfortunately it cannot be installed on devices that have Google services. For testing on such devices you can use [Signature Spoofing Checker](https://github.com/Lanchon/sigspoof-checker) instead.
