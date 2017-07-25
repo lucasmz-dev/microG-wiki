@@ -1,6 +1,6 @@
 Please review the [Prerequisites](https://github.com/microg/android_packages_apps_GmsCore/wiki/Prerequisites) and [Helpful Information](https://github.com/microg/android_packages_apps_GmsCore/wiki/Helpful-Information) before starting installation.
 
-1. **Install GmsCore.apk** as provided in the download section or the microG F-Droid repository as a system app. If you built *GmsCore* using gradle, you can use ```adb install <filename>``` on your computer.
+1. **Install GmsCore.apk** (see note at the bottom) as provided in the [download section](https://microg.org/download.html) or in the microG F-Droid repository. If you built *GmsCore* using gradle, you can use ```adb install <filename>``` on your computer.
 2. **Install GsfProxy.apk** as provided in the download section if you want to use Google Cloud Messaging ("Push-Notifications"). The GsfProxy version does not need to match the GmsCore.apk version and is installable without higher privileges.
 3. **Install a PlayStore APK**
    * If you have BlankStore installed, continue with the next step.
@@ -9,3 +9,5 @@ Please review the [Prerequisites](https://github.com/microg/android_packages_app
 4. **Open the microG Settings**, which are available in the launcher now. If you want to use any Google services (Log-In, Cloud Messaging), tick both checkboxes for background services. This is the only supported setup, but you are free to disable them if you like playing with fire. You can also open the UnifiedNlp settings to enable the location backends of your choice. If you don't have any yet, check out F-Droid. For further questions and concerns regarding UnifiedNlp, use its corresponding [GitHub repo](https://github.com/microg/android_packages_apps_UnifiedNlp) or [XDA thread](http://forum.xda-developers.com/android/apps-games/app-g-unifiednlp-floss-wi-fi-cell-tower-t2991544).
 5. **Reboot your device**. If you skip this step, everything unwanted is possible.
 6. **Disable Battery Optimization**, if you use Android 6 (Marshmallow) or above. Ensure that it is disabled for microG Services Core in System Settings > Battery > Menu > Battery optimization. Note that this is the case for the original Play Services, as it is required to keep a stable background connection.
+
+**Note:** On Android 7 (or later) an [additional patch](https://github.com/microg/android_packages_apps_UnifiedNlp/blob/master/patches/android_frameworks_base-N.patch) is needed to make location working, or alternatively, you can install **GmsCore.apk** in the `/system/priv-app` folder.
