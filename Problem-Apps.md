@@ -7,7 +7,7 @@ Most apps work nicely with microG. Some candidates are causing some problems. He
 | [Deutsche Post mobil][dpm] | `4.6.2`         | `0.2.4-108-gf1cdb48` | LineageOS 14.1 | LG G3 D722 | service stations are not displayed around phone location, crashes when a search by post code or street name is carried out | | :warning: | |
 | [Couchsurfing][cs]         | `4.21.8`        | `0.2.4-111-gf1cdb48` | LineageOS 14.1 | OnePlus 3T | 'Hangout' feature doesn't work | | :warning: | [349][cs-issue] | |
 | [Lyft][lyft]         | `5.18.3.1520427999`        | `0.2.4-108-g464d45d` | DotOS 1.2 | Moto G5 | Display of map has issues, choosing a destination doesn't work at all without a workaround | [workaround](https://github.com/microg/android_packages_apps_GmsCore/issues/207#issuecomment-299622678) | :warning: | [207] |  
-| [free2move][free2move]              | `11.7.0` - and all versions before | `0.2.4-108-gf1cdb48` | LineageOS 14.1 | LG G3 D722 |         | suffers from the problem described [here:](https://github.com/microg/android_packages_apps_GmsCore/issues/406) | :warning: | |
+| [free2move][free2move]              | `11.7.0` - and all versions before | `0.2.4-108-gf1cdb48` | LineageOS 14.1 | LG G3 D722 |         | map display gets crazy after some usage | :warning: | [406](https://github.com/microg/android_packages_apps_GmsCore/issues/406) |
 
 
 
@@ -15,3 +15,4 @@ Most apps work nicely with microG. Some candidates are causing some problems. He
 [dpm]: https://play.google.com/store/apps/details?id=de.deutschepost.postmobil
 [cs]: https://play.google.com/store/apps/details?id=com.couchsurfing.mobile.android
 [cs-issue]: https://github.com/microg/android_packages_apps_GmsCore/issues/349
+[free2move]: https://app.adjust.com/54svnl_3mlvwg_f3w7b2?adgroup=AppStoreButton&creative=HeroStage&deeplink=carjump%3A%2F%2Fregister
