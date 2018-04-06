@@ -8,8 +8,8 @@ Most apps work nicely with microG. Some candidates are causing some problems. He
 | [Couchsurfing][cs]         | `4.21.8`        | `0.2.4-111-gf1cdb48` | LineageOS 14.1 | OnePlus 3T | 'Hangout' feature doesn't work | | :warning: | [349][cs-issue] | |
 | [Lyft][lyft]         | `5.18.3.1520427999`        | `0.2.4-108-g464d45d` | DotOS 1.2 | Moto G5 | Display of map has issues, choosing a destination doesn't work at all without a workaround | [workaround](https://github.com/microg/android_packages_apps_GmsCore/issues/207#issuecomment-299622678) | :warning: | [207] |  
 | [free2move][free2move]              | `11.7.0` - and all versions before | `0.2.4-108-gf1cdb48` | LineageOS 14.1 | LG G3 D722 |map display gets crazy after some usage|  | :warning: | [406](https://github.com/microg/android_packages_apps_GmsCore/issues/406) |
-| [hoy milonga Berlin][hoy milonga Berlin] | `1.3` - and all versions before | `0.2.4-108-gf1cdb48` | LineageOS 14.1 | LG G3 D722 |crashes when "show map" icon is tapped|  | minor |  |
-| [Windfinder][Windfinder] | `3.1.2` - and all versions before | `0.2.4-108-gf1cdb48` | LineageOS 14.1 | LG G3 D722 |does not deliver map contents, only background map, but not map overlay, containing the wind force info e.g.  |  | minor |  |
+| [hoy milonga Berlin][hoy milonga Berlin] | `1.3` - and all versions before | `0.2.4-108-gf1cdb48` | LineageOS 14.1 | LG G3 D722 |crashes when "show map" icon is tapped|  | minor issue |  |
+| [Windfinder][Windfinder] | `3.1.2` - and all versions before | `0.2.4-108-gf1cdb48` | LineageOS 14.1 | LG G3 D722 |does not deliver map contents, only background map, but not map overlay, containing the wind force info e.g.  |  | minor issue |  |
 
 
 
