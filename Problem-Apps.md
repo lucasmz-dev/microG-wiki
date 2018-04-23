@@ -24,3 +24,4 @@ Most apps work nicely with microG. Some candidates are causing some problems. He
 [Windfinder]: https://play.google.com/store/apps/details?id=com.studioeleven.windfinder
 [Threema]: https://threema.ch/en
 [Lyft]: https://play.google.com/store/apps/details?id=me.lyft.android&hl=de
+[Strava]: https://play.google.com/store/apps/details?id=com.strava
