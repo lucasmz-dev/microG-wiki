@@ -6,6 +6,7 @@ Most apps work nicely with microG. Some candidates are causing some problems. He
 | [Cabify][cabify]         | `7.1.10`        | `0.2.4-111-gf1cdb48` | OmniROM  8.1.0-20180422 | Xiaomi Redmi Note 4 | crashes with NullPointerException (right after selecting a pickup address) | | :warning: | [525][cabify-issue] | |
 | [Couchsurfing][cs]         | `4.21.8`        | `0.2.4-111-gf1cdb48` | LineageOS 14.1 | OnePlus 3T | 'Hangout' feature doesn't work | | :warning: | [349][cs-issue] | |
 | [Deutsche Post mobil][dpm] | `4.6.2`         | `0.2.4-108-gf1cdb48` | LineageOS 14.1 | LG G3 D722 | service stations are not displayed around phone location, crashes when a search by post code or street name is carried out | | :warning: | |
+| [Discord][discord] | `6.5.6`         | `0.2.4-111-gf1cdb48` | LineageOS 14.1 | OnePlus 3T | Does not register for push notifications | | :warning: | [540][discord-issue] |
 | [free2move][free2move]              | `11.3.1` - and all versions before | `0.2.4-108-gf1cdb48` | LineageOS 14.1 | LG G3 D722 |map display gets crazy after some usage|  | :warning: | [406](https://github.com/microg/android_packages_apps_GmsCore/issues/406) |
 | [free2move][free2move]              | `11.7.0` | `0.2.4-108-gf1cdb48` | LineageOS 14.1 | LG G3 D722 |app crashes when verhicle on the map is tapped| downgrade to 11.3.1 or below | :warning: | [406 persists](https://github.com/microg/android_packages_apps_GmsCore/issues/406) |
 | [hoy milonga Berlin][hoy milonga Berlin] | `1.3` - and all versions before | `0.2.4-108-gf1cdb48` | LineageOS 14.1 | LG G3 D722 |crashes when "show map" icon is tapped|  | minor issue |  |
@@ -20,6 +21,8 @@ Most apps work nicely with microG. Some candidates are causing some problems. He
 [cabify-issue]: https://github.com/microg/android_packages_apps_GmsCore/issues/525
 [oeffi]: https://play.google.com/store/apps/details?id=de.schildbach.oeffi
 [dpm]: https://play.google.com/store/apps/details?id=de.deutschepost.postmobil
+[discord]: https://play.google.com/store/apps/details?id=com.discord
+[discord-issue]: https://github.com/microg/android_packages_apps_GmsCore/issues/540
 [cs]: https://play.google.com/store/apps/details?id=com.couchsurfing.mobile.android
 [cs-issue]: https://github.com/microg/android_packages_apps_GmsCore/issues/349
 [free2move]: https://play.google.com/store/apps/details?id=com.ghm.carjump
