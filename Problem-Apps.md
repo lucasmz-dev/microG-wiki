@@ -16,6 +16,7 @@ Most apps work nicely with microG. Some candidates are causing some problems. He
 | [Windfinder][Windfinder] | `3.1.2` - and all versions before | `0.2.4-108-gf1cdb48` | LineageOS 14.1 | LG G3 D722 |does not deliver map contents, only background map, but not map overlay, containing the wind force info e.g.  |  | minor issue |  |
 | [Strava][Strava] | `3.1.2` - and all versions before | `0.2.4-108-gf1cdb48` | RR-O v6.0.0 | Moto G5 | Refuses to start as Google Maps is not detected, though there is a workaround  | Add a strava widget to your home screen, tapping that allows you into the Strava app | :warning:  | |
 | [N26][N26] | `3.11` - and all versions before | `0.2.4-108-gf1cdb48` | LineageOS 15.1 | Samsung A3 2017 | Does not register with Push Notifications  | | w/o push registration one cannot use core functionality | [507](https://github.com/microg/android_packages_apps_GmsCore/issues/507)  | |
+| [Blitzortung Lightning Monitor][bo-android]              | `1.6.3_206` | `0.2.4-111-gf1cdb48` | LineageOS 14.1 | Moto G3 |     will not install, not show map    | flash mapAPI v1 before installing |  | |
 
 [cabify]: https://play.google.com/store/apps/details?id=com.cabify.rider
 [cabify-issue]: https://github.com/microg/android_packages_apps_GmsCore/issues/525
@@ -32,3 +33,4 @@ Most apps work nicely with microG. Some candidates are causing some problems. He
 [Lyft]: https://play.google.com/store/apps/details?id=me.lyft.android&hl=de
 [Strava]: https://play.google.com/store/apps/details?id=com.strava
 [N26]: https://play.google.com/store/apps/details?id=de.number26.android
+[bo-android]: https://play.google.com/store/apps/details?id=org.blitzortung.android.app
