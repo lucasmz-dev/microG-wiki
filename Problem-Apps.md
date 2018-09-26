@@ -11,6 +11,7 @@ Most apps work nicely with microG. Some candidates are causing some problems. He
 | [free2move][free2move]              | `11.3.1` - and all versions before | `0.2.4-108-gf1cdb48` | LineageOS 14.1 | LG G3 D722 |map display gets crazy after some usage|  | :warning: | [406](https://github.com/microg/android_packages_apps_GmsCore/issues/406) |
 | [free2move][free2move]              | `11.7.0` | `0.2.4-108-gf1cdb48` | LineageOS 14.1 | LG G3 D722 |app crashes when verhicle on the map is tapped| downgrade to 11.3.1 or below | :warning: | [406 persists](https://github.com/microg/android_packages_apps_GmsCore/issues/406) |
 | [free2move][free2move]              | `11.12.0` | `0.2.5-12879` | LineageOS 14.1 | LG G3 D722 |vehicles on the map are not displayed|  | issue 406 (mentioned above) does no longer exist (: |
+| [Hangouts][hangouts] | `23.0.172956998` | `0.2.5-12879` | LineageOS 14.1 | | crashes on startup | [workaround](https://github.com/microg/android_packages_apps_GmsCore/issues/72#issuecomment-303714674) | | [72](https://github.com/microg/android_packages_apps_GmsCore/issues/72) |
 | [hoy milonga Berlin][hoy milonga Berlin] | `1.3` - and all versions before | `0.2.4-108-gf1cdb48` | LineageOS 14.1 | LG G3 D722 |crashes when "show map" icon is tapped|  | minor issue |  |
 | [Lyft][lyft]         | `5.18.3.1520427999`        | `0.2.4-108-g464d45d` | DotOS 1.2 | Moto G5 | Display of map has issues, choosing a destination doesn't work at all without a workaround | [workaround](https://github.com/microg/android_packages_apps_GmsCore/issues/207#issuecomment-299622678) | :warning: | [207](https://github.com/microg/android_packages_apps_GmsCore/issues/207) |  
 | [Öffi][oeffi]              | `9.07.5-google` | `0.2.4-108-gf1cdb48` | LineageOS 14.1 | LG G3 D722 |     will not install    | flash mapAPI v1 before installing | :heavy_check_mark: | |
@@ -30,6 +31,7 @@ Most apps work nicely with microG. Some candidates are causing some problems. He
 [cs]: https://play.google.com/store/apps/details?id=com.couchsurfing.mobile.android
 [cs-issue]: https://github.com/microg/android_packages_apps_GmsCore/issues/349
 [free2move]: https://play.google.com/store/apps/details?id=com.ghm.carjump
+[hangouts]: https://play.google.com/store/apps/details?id=com.google.android.talk
 [hoy milonga berlin]: https://play.google.com/store/apps/details?id=com.hoy.berlin&hl=de
 [Windfinder]: https://play.google.com/store/apps/details?id=com.studioeleven.windfinder
 [Threema]: https://threema.ch/en
