@@ -8,6 +8,7 @@ Most apps work nicely with microG. Some candidates are causing some problems. He
 | [Couchsurfing][cs]         | `4.21.8`        | `0.2.4-111-gf1cdb48` | LineageOS 14.1 | OnePlus 3T | 'Hangout' feature doesn't work | | :warning: | [349][cs-issue] | |
 | [Deutsche Post mobil][dpm] | `4.6.2`         | `0.2.4-108-gf1cdb48` | LineageOS 14.1 | LG G3 D722 | service stations are not displayed around phone location, crashes when a search by post code or street name is carried out | | :warning: | |
 | [Discord][discord] | `6.5.6`         | `0.2.4-111-gf1cdb48` | LineageOS 14.1 | OnePlus 3T | Does not register for push notifications | | :warning: | [540][discord-issue] |
+| [eBay Kleinanzeigen][ebaykleinanzeigen] | `8.7.0`         | `0.2.6-13280` | LineageOS 15.1 | Fairphone 2 | Does not register for push notifications | Downgrade to App version 7.3.1 and it will register, but notifications will be unreliable | | [540][discord-issue] |
 | [free2move][free2move]              | `11.3.1` - and all versions before | `0.2.4-108-gf1cdb48` | LineageOS 14.1 | LG G3 D722 |map display gets crazy after some usage|  | :warning: | [406](https://github.com/microg/android_packages_apps_GmsCore/issues/406) |
 | [free2move][free2move]              | `11.7.0` | `0.2.4-108-gf1cdb48` | LineageOS 14.1 | LG G3 D722 |app crashes when verhicle on the map is tapped| downgrade to 11.3.1 or below | :warning: | [406 persists](https://github.com/microg/android_packages_apps_GmsCore/issues/406) |
 | [free2move][free2move]              | `11.12.0` | `0.2.5-12879` | LineageOS 14.1 | LG G3 D722 |vehicles on the map are not displayed|  | issue 406 (mentioned above) does no longer exist (: |
@@ -40,3 +41,4 @@ Most apps work nicely with microG. Some candidates are causing some problems. He
 [Strava]: https://play.google.com/store/apps/details?id=com.strava
 [N26]: https://play.google.com/store/apps/details?id=de.number26.android
 [bo-android]: https://play.google.com/store/apps/details?id=org.blitzortung.android.app
+[ebaykleinanzeigen]: https://play.google.com/store/apps/details?id=com.ebay.kleinanzeigen
