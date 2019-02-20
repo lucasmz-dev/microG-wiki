@@ -5,6 +5,7 @@ Most apps work nicely with microG. Some candidates are causing some problems. He
 |----------------------------|-----------------|----------------------|----------------|------------|---------|------------|--------|---------------|
 | [Cabify][cabify]         | `7.1.10`        | `0.2.4-111-gf1cdb48` | OmniROM  8.1.0-20180422 | Xiaomi Redmi Note 4 | crashes with NullPointerException (right after selecting a pickup address) | | :warning: | [525][cabify-issue] | |
 | [car2go][car2go]         | `3.23.4`        | `0.2.4-111-gf1cdb48` | LineageOS 15.1 (15.1-20180731-microG-oneplus3) | OnePlus 3T | Requires update of Google Play Services | :heavy_check_mark: fixed with v0.2.6.13280 | :warning: | [590][car2go-issue] | |
+| [car2go][car2go]         | `3.36.6`        | `0.2.6.13280` | LineageOS 15.1 (15.1-2010220-microG-oneplus3) | OnePlus 3T | crash on startup |  | :warning: | [711][car2go-issue] | |
 | [Couchsurfing][cs]         | `4.21.8`        | `0.2.4-111-gf1cdb48` | LineageOS 14.1 | OnePlus 3T | 'Hangout' feature doesn't work | | :warning: | [349][cs-issue] | |
 | [Deutsche Post mobil][dpm] | `4.6.2`         | `0.2.4-108-gf1cdb48` | LineageOS 14.1 | LG G3 D722 | service stations are not displayed around phone location, crashes when a search by post code or street name is carried out | | :warning: | |
 | [Discord][discord] | `6.5.6`         | `0.2.4-111-gf1cdb48` | LineageOS 14.1 | OnePlus 3T | Does not register for push notifications | | :warning: | [540][discord-issue] |
