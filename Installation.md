@@ -10,4 +10,6 @@ Please review the [Prerequisites](https://github.com/microg/android_packages_app
 5. **Reboot your device**. If you skip this step, everything unwanted is possible.
 6. **Disable Battery Optimization**, if you use Android 6 (Marshmallow) or above. Ensure that it is disabled for microG Services Core in System Settings > Battery > Menu > Battery optimization. Note that this is the case for the original Play Services, as it is required to keep a stable background connection.
 
-**Note:** On Android 7 (or later) an [additional patch](https://github.com/microg/android_packages_apps_UnifiedNlp/blob/master/patches/android_frameworks_base-N.patch) is needed to make location work, or alternatively, you can install **GmsCore.apk** in the `/system/priv-app` folder. This can be done by using `adb push`.
+**Note:** On Android 7 (or later) an [additional patch](https://github.com/microg/android_packages_apps_UnifiedNlp/blob/master/patches/android_frameworks_base-N.patch) is needed to make location work, or alternatively:
+*  You can install **GmsCore.apk** in the `/system/priv-app` folder. This can be done by using `adb push`.
+*  Download microg from here, it works: https://vanced.app/APKs?type=NONROOT
