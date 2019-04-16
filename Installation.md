@@ -12,4 +12,3 @@ Please review the [Prerequisites](https://github.com/microg/android_packages_app
 
 **Note:** On Android 7 (or later) an [additional patch](https://github.com/microg/android_packages_apps_UnifiedNlp/blob/master/patches/android_frameworks_base-N.patch) is needed to make location work, or alternatively:
 *  You can install **GmsCore.apk** in the `/system/priv-app` folder. This can be done by using `adb push`.
-*  Download microg from here, it works: https://vanced.app/APKs?type=NONROOT
