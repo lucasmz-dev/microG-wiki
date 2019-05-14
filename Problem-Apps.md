@@ -22,6 +22,7 @@ Most apps work nicely with microG. Some candidates are causing some problems. He
 | [Öffi][oeffi]              | `9.07.5-google` | `0.2.4-108-gf1cdb48` | LineageOS 14.1 | LG G3 D722 |     will not install    | flash mapAPI v1 before installing | :heavy_check_mark: | |
 | [Threema][Threema] | `3.4.1.413 (webshop version)` | `0.2.4-108-g464d45d` | LineageOS 15.1 | Nexus 5x, OnePlus 3T | does not register with GCM for push notifications; push token cannot be reset either, so push notifications do not work | use polling at the expense of battery consumption | :heavy_check_mark: fixed with microG v0.2.613280 | [509](https://github.com/microg/android_packages_apps_GmsCore/issues/509), [502](https://github.com/microg/android_packages_apps_GmsCore/issues/502), [439](https://github.com/microg/android_packages_apps_GmsCore/issues/439) 
 | [Tinder](https://play.google.com/store/apps/details?id=com.tinder) | `10.5.0` | `0.2.6.14847-dirty-155` | LineageOS 16.0 | Pocophone F1 | Crashes to home screen upon trying to login via phone number, `android.content.ActivityNotFoundException: No Activity found to handle null` |  | :x: | [693](https://github.com/microg/android_packages_apps_GmsCore/issues/693) |
+| [Uber][uber], [UberEats][ubereats] | `4.250.10002` - and all versions before/after | `0.2.6.15181-79-895c63c` (tried with both Maps API v1 and v2) | LineageOS 15.1 | Google Pixel XL | Map does not work at all. The cars stay stuck wherever they are on the map when dragging through it, making it impossible to tell where the driver is relative to the pickup. Additionally, the map itself glitches when dragging. | | :warning: | **[#148][uber-issue]**, [#685][uber-issue-2], [#690][uber-issue-3], [#701][uber-issue-4]
 | [Windfinder][Windfinder] | `3.1.2` - and all versions before | `0.2.4-108-gf1cdb48` | LineageOS 14.1 | LG G3 D722 |does not deliver map contents, only background map, but not map overlay, containing the wind force info e.g.  |  | minor issue  |  | 
 | [Strava][Strava] | `3.1.2` - and all versions before | `0.2.4-108-gf1cdb48` | RR-O v6.0.0 | Moto G5 | Refuses to start as Google Maps is not detected, though there is a workaround  | Add a strava widget to your home screen, tapping that allows you into the Strava app | :warning:  | |
 | [Blitzortung Lightning Monitor][bo-android]              | `1.6.3_206` | `0.2.4-111-gf1cdb48` | LineageOS 14.1 | Moto G3 |     will not install, not show map    | flash mapAPI v1 before installing |  | |
@@ -47,3 +48,9 @@ Most apps work nicely with microG. Some candidates are causing some problems. He
 [bo-android]: https://play.google.com/store/apps/details?id=org.blitzortung.android.app
 [ebaykleinanzeigen]: https://play.google.com/store/apps/details?id=com.ebay.kleinanzeigen
 [nina]: https://play.google.com/store/apps/details?id=de.materna.bbk.mobile.app
+[uber]: https://play.google.com/store/apps/details?id=com.ubercab
+[ubereats]: https://play.google.com/store/apps/details?id=com.ubercab.eats
+[uber-issue]: https://github.com/microg/android_packages_apps_GmsCore/issues/148
+[uber-issue-2]: https://github.com/microg/android_packages_apps_GmsCore/issues/685
+[uber-issue-3]: https://github.com/microg/android_packages_apps_GmsCore/issues/690
+[uber-issue-4]: https://github.com/microg/android_packages_apps_GmsCore/issues/701
