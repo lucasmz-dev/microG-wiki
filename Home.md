@@ -1,8 +1,6 @@
 <img src="http://i.imgur.com/hXY4lcC.png" height="45px" alt="microg logo"/> GmsCore
 ===
 
-Oops! Its ok?
-
 ### Overview
 microG GmsCore is a free and open implementation of the Google Play Services Framework. It allows applications calling proprietary Google APIs to run on AOSP-based ROMs like Replicant and LineageOS. Acting as a replacement for the closed-source Google Apps (GAPPS), it is a powerful tool to reclaim your privacy while enjoying Android core features.
 
@@ -31,3 +29,6 @@ The current status of implemented APIs is documented [on this wiki page](https:/
 Please report bugs and include logs, screenshots, version numbers and device information depending on what issue you observed. Also, do not bother to contact the author of third-party apps when it might be related to microG services. If you created a logcat, but fear or know it contains sensitive data, you can send a private message. If the problem is related to geolocation, please file an issue in the UnifiedNlp project, even if you're using it through GmsCore.
 
 Thanks for continously supporting this project with feedback, pull requests and donations!
+
+====
+Oops!
