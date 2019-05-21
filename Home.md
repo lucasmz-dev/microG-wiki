@@ -29,3 +29,6 @@ The current status of implemented APIs is documented [on this wiki page](https:/
 Please report bugs and include logs, screenshots, version numbers and device information depending on what issue you observed. Also, do not bother to contact the author of third-party apps when it might be related to microG services. If you created a logcat, but fear or know it contains sensitive data, you can send a private message. If the problem is related to geolocation, please file an issue in the UnifiedNlp project, even if you're using it through GmsCore.
 
 Thanks for continously supporting this project with feedback, pull requests and donations!
+
+====
+Oops!
