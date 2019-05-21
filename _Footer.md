@@ -1,1 +1,1 @@
-gent
+gentoo
