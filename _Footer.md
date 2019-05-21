@@ -1,2 +1,1 @@
 insdale gentoo
-уле=еле
