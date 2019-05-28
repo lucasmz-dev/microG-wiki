@@ -1,0 +1,1 @@
+Hmm. You should secure your site against random edits. Thus could be adverts or other evil 
