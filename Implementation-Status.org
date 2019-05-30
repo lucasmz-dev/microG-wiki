@@ -3,7 +3,7 @@
 | Analytics | :ballot_box_with_check: Not intended | :white_check_mark: No | | 
 | Account Authentication | :ballot_box_with_check: Most | :white_check_mark: No | Minor issues |
 | Auto | :x: None | :x: Yes | |
-| Cast | :x: None | :x: Yes | [[https://github.com/microg/android_packages_apps_GmsCore/issues/79][#79]], Missing most APIs |
+| Cast | :warning: Partial | :warning: Maybe | [[https://github.com/microg/android_packages_apps_GmsCore/issues/79][#79]], Missing most APIs |
 | Cloud Messaging | :white_check_mark: Full | :white_check_mark: No | |
 | Drive | :x: None | :warning: Maybe | |
 | Firebase Analytics | :ballot_box_with_check: Not intended | :warning: Maybe | |
