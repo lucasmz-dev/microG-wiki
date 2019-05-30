@@ -39,7 +39,7 @@ mkdir outputs
 mkdir keystores
 
 ANDROID_SDK_PATH="/opt/android-sdk-update-manager"
-KEYSTORES_PATH="keystores"
+KEYSTORES_PATH="$PWD/keystores"
 
 # Generate keystore
 echo "We need to create a keystore for GmsCore:"
