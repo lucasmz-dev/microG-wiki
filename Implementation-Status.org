@@ -4,7 +4,7 @@
 | Account Authentication | :ballot_box_with_check: Most | :white_check_mark: No | Minor issues |
 | Auto | :x: None | :x: Yes | |
 | Cast | :warning: Partial | :warning: Maybe | Minor issues |
-| Cloud Messaging | :white_check_mark: Full | :white_check_mark: No | |
+| Firebase Cloud Messaging | :white_check_mark: Full | :white_check_mark: No | |
 | Drive | :x: None | :warning: Maybe | |
 | Firebase Analytics | :ballot_box_with_check: Not intended | :warning: Maybe | |
 | Fitness | :x: None | :warning: Maybe | |
