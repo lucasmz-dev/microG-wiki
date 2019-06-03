@@ -1,5 +1,8 @@
 Most apps work nicely with microG. Some candidates are causing some problems. Here we're collecting problems - and hopefully solutions.
 
+### Regarding problem Google apps:
+
+Do not submit an app here if your app is made by Google, and the logcat/stack trace shows that it is missing an "EXTENDED_ACCESS" permission, but instead open an issue report with the package name of the app, the stack trace/logcat and (preferably) the signature of the app. The issue will then be resolved in short order in a newer version of microG.
 
 | App                        | App Version     | microG Version       | OS             | Phone      | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Problem&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Workaround | Usable | Related issue |
 |----------------------------|-----------------|----------------------|----------------|------------|---------|------------|--------|---------------|
