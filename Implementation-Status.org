@@ -1,7 +1,7 @@
 
 | *API* | *Functionality* | *Crashing* | *Issues* |
 | Analytics | :white_check_mark:  Not intended | :heavy_check_mark: No | | 
-| Account Authentication | :heavy_check_mark: Most | :heavy_check_mark: No | Minor issues |
+| Account Authentication | :warning: Some | :heavy_check_mark: No | ~~Minor issues~~ Major regressions in 0.2.7.17455, fixed in unreleased [[https://github.com/microg/android_packages_apps_GmsCore/commit/4713797edc21e3f3b2a26194056f63b307e67ef6][4713797edc]] |
 | Auto | :x: None | :x: Yes | |
 | Cast | :warning: Partial | :warning: Maybe | Minor issues |
 | Firebase Cloud Messaging | :heavy_check_mark: Full | :heavy_check_mark: No | |
