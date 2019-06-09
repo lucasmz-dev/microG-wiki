@@ -18,4 +18,4 @@
 | SafetyNet | :warning: Partial | :heavy_check_mark: No | [[https://github.com/microg/android_packages_apps_GmsCore/issues/526][#526]] |
 | Vision | :x: None | :warning: Maybe |[[https://github.com/microg/android_packages_apps_GmsCore/issues/395][#395]], [[https://github.com/microg/android_packages_apps_GmsCore/issues/670][#670]]|
 | Wearable | :x: None | :warning: Maybe | [[https://github.com/microg/android_packages_apps_GmsCore/issues/4][#4]], Missing most APIs |
-| [Fonts](https://developer.android.com/guide/topics/ui/look-and-feel/downloadable-fonts#via-android-studio) | :x: None | :heavy_check_mark: No | #797, Not implemented |
+| [[https://developer.android.com/guide/topics/ui/look-and-feel/downloadable-fonts#via-android-studio] Fonts] | :x: None | :heavy_check_mark: No | #797, Not implemented |
