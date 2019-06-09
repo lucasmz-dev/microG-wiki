@@ -1,13 +1,13 @@
-
 | *API* | *Functionality* | *Crashing* | *Issues* |
+| Account Authentication | :warning: Partial | :heavy_check_mark: No | Major regressions in 0.2.7.17455, fixed in unreleased [[https://github.com/microg/android_packages_apps_GmsCore/commit/4713797edc21e3f3b2a26194056f63b307e67ef6][4713797edc]] |
 | Analytics | :white_check_mark:  Not intended | :heavy_check_mark: No | | 
-| Account Authentication | :warning: Some | :heavy_check_mark: No | Major regressions in 0.2.7.17455, fixed in unreleased [[https://github.com/microg/android_packages_apps_GmsCore/commit/4713797edc21e3f3b2a26194056f63b307e67ef6][4713797edc]] |
 | Auto | :x: None | :x: Yes | |
 | Cast | :warning: Partial | :warning: Maybe | Minor issues |
-| Firebase Cloud Messaging | :heavy_check_mark: Full | :heavy_check_mark: No | |
 | Drive | :x: None | :warning: Maybe | |
 | Firebase Analytics | :white_check_mark: Not intended | :warning: Maybe | |
+| Firebase Cloud Messaging | :heavy_check_mark: Full | :heavy_check_mark: No | |
 | Fitness | :x: None | :warning: Maybe | |
+| [[https://developer.android.com/guide/topics/ui/look-and-feel/downloadable-fonts#via-android-studio][Fonts]] | :x: None | :heavy_check_mark: No | [[https://github.com/microg/android_packages_apps_GmsCore/issues/797][#797]], Not implemented |
 | Fused Locations | :heavy_check_mark: Full | :heavy_check_mark: No | Does not honor AppOps! |
 | Games | :x: None | :warning: Maybe | [[https://github.com/microg/android_packages_apps_GmsCore/issues/163][#163]] |
 | Geofencing | :x: None | :warning: Maybe | |
@@ -15,7 +15,6 @@
 | Mobile Ads | :white_check_mark: Not intended | :heavy_check_mark: No | | 
 | Nearby | :x: None | :warning: Maybe | |
 | Plus | :x: None | :warning: Maybe | Google discontinued Google Plus, making µG's implementation useless |
-| SafetyNet | :warning: Partial | :heavy_check_mark: No | [[https://github.com/microg/android_packages_apps_GmsCore/issues/526][#526]] |
+| SafetyNet | :warning: Partial | :heavy_check_mark: No | [[https://github.com/microg/android_packages_apps_GmsCore/issues/526][#526]], [[https://github.com/microg/android_packages_apps_RemoteDroidGuard/issues/24][#24]] |
 | Vision | :x: None | :warning: Maybe |[[https://github.com/microg/android_packages_apps_GmsCore/issues/395][#395]], [[https://github.com/microg/android_packages_apps_GmsCore/issues/670][#670]]|
 | Wearable | :x: None | :warning: Maybe | [[https://github.com/microg/android_packages_apps_GmsCore/issues/4][#4]], Missing most APIs |
-| [[https://developer.android.com/guide/topics/ui/look-and-feel/downloadable-fonts#via-android-studio][Fonts]] | :x: None | :heavy_check_mark: No | #797, Not implemented |
