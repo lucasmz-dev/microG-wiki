@@ -1,8 +1,14 @@
 Most apps work nicely with microG. Some candidates are causing some problems. Here we're collecting problems - and hopefully solutions.
 
-### Regarding problem Google apps:
+### Regarding problematic Google apps:
 
 Do not submit an app here if your app is made by Google, and the logcat/stack trace shows that it is missing an "EXTENDED_ACCESS" permission, but instead open an issue report with the package name of the app, the stack trace/logcat and (preferably) the signature of the app. The issue will then be resolved in short order in a newer version of microG.
+
+### Regarding problematic apps that use the MapsV2 API
+
+Do not submit an issue report or add an app here unless the app doesn't work with the new microG implementation of MapsV2; that is to say, Mapbox, which is undergoing testing and is included in a separate build of microG. The Mapbox build can be installed from F-Droid or the repository releases section. 
+
+If you aren't sure whether you are running a Mapbox build or not, in the about screen, Mapbox builds will be prefixed with **-mapbox** (`foo.bar.x.yyyyyy-mapbox`).
 
 | App                        | App Version     | microG Version       | OS             | Phone      | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Problem&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Workaround | Usable | Related issue |
 |----------------------------|-----------------|----------------------|----------------|------------|---------|------------|--------|---------------|
