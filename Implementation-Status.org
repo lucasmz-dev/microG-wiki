@@ -11,7 +11,7 @@
 | Fused Locations | :heavy_check_mark: Full | :heavy_check_mark: No | Does not honor AppOps! |
 | Games | :x: None | :warning: Maybe | [[https://github.com/microg/android_packages_apps_GmsCore/issues/163][#163]] |
 | Geofencing | :x: None | :warning: Maybe | |
-| Maps API version 1| :heavy_check_mark:  Full | :heavy_check_mark: | No |
+| Maps API version 1| :heavy_check_mark:  Full | :heavy_check_mark:  No | |
 | Maps API version 2| :white_check_mark:  Mostly | :warning: Maybe | Minor glitches |
 | Mobile Ads | :white_check_mark: Not intended | :heavy_check_mark: No | | 
 | Nearby | :x: None | :warning: Maybe | |
