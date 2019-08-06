@@ -1,4 +1,4 @@
-| *API* | *Functionality* | *Crashing* | *Issues* |
+| *APIs* | *Functionality* | *Crashing* | *Issues* |
 | Account Authentication | :warning: Partial | :warning: Maybe | Major regressions in 0.2.7.17455, fixed in [[https://github.com/microg/android_packages_apps_GmsCore/commit/4713797edc21e3f3b2a26194056f63b307e67ef6][4713797edc]] (0.2.8.17785) |
 | Analytics | :white_check_mark:  Not intended | :heavy_check_mark: No | | 
 | Auto | :x: None | :x: Yes | |
