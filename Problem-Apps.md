@@ -27,6 +27,7 @@ If you aren't sure whether you are running a Mapbox build or not, in the about s
 | [Hangouts][hangouts] | `23.0.172956998` | `0.2.5-12879` | LineageOS 14.1 | | crashes on startup | [workaround](https://github.com/microg/android_packages_apps_GmsCore/issues/72#issuecomment-303714674) | | [72](https://github.com/microg/android_packages_apps_GmsCore/issues/72) |
 | [hoy milonga Berlin][hoy milonga Berlin] | `1.3` - and all versions before | `0.2.4-108-gf1cdb48` | LineageOS 14.1 | LG G3 D722 |crashes when "show map" icon is tapped|  | minor issue |  |
 | [Lyft][lyft]         | `5.18.3.1520427999`        | `0.2.4-108-g464d45d` | DotOS 1.2 | Moto G5 | Display of map has issues, choosing a destination doesn't work at all without a workaround | [workaround](https://github.com/microg/android_packages_apps_GmsCore/issues/207#issuecomment-299622678) | :warning: | [207](https://github.com/microg/android_packages_apps_GmsCore/issues/207) |  
+| [Messenger Lite][mlite] | `73.0.1.15.241`         | `0.2.10.19420` | LineageOS 16.0 | Xiaomi Pocophone F1 | Sometimes notification don't appear, sometimes seems to crash microg | | :warning: | |
 | [N26][n26] | `3.32.1` | `0.2.8.1.7785-mapbox` | LineageOS 16.0 | Xperia XA2 | App crashes when opening the map | | :warning: | [928](https://github.com/microg/android_packages_apps_GmsCore/issues/928)
 | [N26][n26]         | `3.18`        | `0.2.6.13280` | LineageOS 15.1 | Xiaomi Mi 5 gemini | No push notifications, app doesn't even register with GMS, issue 507 author got it fixed randomly but no proper solution was offered | [workaround] | :warning: | [507](https://github.com/microg/android_packages_apps_GmsCore/issues/507) |  
 | [NINA][nina] | `2.2.3`         | `0.2.6-13280` | LineageOS 15.1 | Fairphone 2 | Does not register for push notifications | | :warning: | |
@@ -53,6 +54,7 @@ If you aren't sure whether you are running a Mapbox build or not, in the about s
 [hangouts]: https://play.google.com/store/apps/details?id=com.google.android.talk
 [hoy milonga berlin]: https://play.google.com/store/apps/details?id=com.hoy.berlin&hl=de
 [Lyft]: https://play.google.com/store/apps/details?id=me.lyft.android&hl=de
+[mlite]: https://play.google.com/store/apps/details?id=com.facebook.mlite
 [N26]: https://play.google.com/store/apps/details?id=de.number26.android
 [nina]: https://play.google.com/store/apps/details?id=de.materna.bbk.mobile.app
 [Strava]: https://play.google.com/store/apps/details?id=com.strava
