@@ -2,7 +2,7 @@
 ===
 
 ### Overview
-microG GmsCore is a free software reimplementation of Google's Play Services. It allows applications calling proprietary Google APIs to run on AOSP-based ROMs like Replicant and LineageOS. Acting as a replacement for the non-free (proprietary) Google Apps (GAPPS), it is a powerful tool to reclaim your privacy and freedom while enjoying Android core features.
+microG GmsCore is a free software reimplementation of Google's Play Services. It allows applications calling proprietary Google APIs to run on AOSP-based ROMs like LineageOS. Acting as a replacement for the non-free (proprietary) Google Apps (GAPPS), it is a powerful tool to reclaim your privacy and freedom while enjoying Android core features.
 
 ### Features
 - Opt-in to Google Services and extend application support
