@@ -33,6 +33,7 @@ If you aren't sure whether you are running a Mapbox build or not, in the about s
 | [N26][n26]         | `3.18`        | `0.2.6.13280` | LineageOS 15.1 | Xiaomi Mi 5 gemini | No push notifications, app doesn't even register with GMS, issue 507 author got it fixed randomly but no proper solution was offered | [workaround] | :warning: | [507](https://github.com/microg/android_packages_apps_GmsCore/issues/507) |  
 | [NINA][nina] | `2.2.3`         | `0.2.6-13280` | LineageOS 15.1 | Fairphone 2 | Does not register for push notifications | | :warning: | |
 | [Öffi][oeffi]              | `9.07.5-google` | `0.2.4-108-gf1cdb48` | LineageOS 14.1 | LG G3 D722 |     will not install    | flash mapAPI v1 before installing | :heavy_check_mark: | |
+| [Prism][prism] | `2.12.263` | `0.2.10.19420` | LineageOS 16.0 | | No push notifications | | :warning: | [906](https://github.com/microg/android_packages_apps_GmsCore/issues/906)
 | [Strava][Strava] | `3.1.2` - and all versions before | `0.2.4-108-gf1cdb48` | RR-O v6.0.0 | Moto G5 | Refuses to start as Google Maps is not detected, though there is a workaround  | Add a strava widget to your home screen, tapping that allows you into the Strava app | :warning:  | |
 | [Threema][Threema] | `3.4.1.413 (webshop version)` | `0.2.4-108-g464d45d` | LineageOS 15.1 | Nexus 5x, OnePlus 3T | does not register with GCM for push notifications; push token cannot be reset either, so push notifications do not work | use polling at the expense of battery consumption | :heavy_check_mark: fixed with microG v0.2.613280 | [509](https://github.com/microg/android_packages_apps_GmsCore/issues/509), [502](https://github.com/microg/android_packages_apps_GmsCore/issues/502), [439](https://github.com/microg/android_packages_apps_GmsCore/issues/439) 
 | [Tinder](https://play.google.com/store/apps/details?id=com.tinder) | `10.5.0` | `0.2.6.14847-dirty-155` | LineageOS 16.0 | Pocophone F1 | Crashes to home screen upon trying to login via phone number, `android.content.ActivityNotFoundException: No Activity found to handle null` |  | :x: | [693](https://github.com/microg/android_packages_apps_GmsCore/issues/693) |
@@ -59,6 +60,7 @@ If you aren't sure whether you are running a Mapbox build or not, in the about s
 [mlite]: https://play.google.com/store/apps/details?id=com.facebook.mlite
 [N26]: https://play.google.com/store/apps/details?id=de.number26.android
 [nina]: https://play.google.com/store/apps/details?id=de.materna.bbk.mobile.app
+[prism]: https://play.google.com/store/apps/details?id=com.mobilligy.android
 [Strava]: https://play.google.com/store/apps/details?id=com.strava
 [Threema]: https://threema.ch/en
 [uber]: https://play.google.com/store/apps/details?id=com.ubercab
