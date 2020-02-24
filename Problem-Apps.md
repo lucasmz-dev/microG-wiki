@@ -39,6 +39,7 @@ If you aren't sure whether you are running a Mapbox build or not, in the about s
 | [Tinder](https://play.google.com/store/apps/details?id=com.tinder) | `10.5.0` | `0.2.6.14847-dirty-155` | LineageOS 16.0 | Pocophone F1 | Crashes to home screen upon trying to login via phone number, `android.content.ActivityNotFoundException: No Activity found to handle null` |  | :x: | [693](https://github.com/microg/android_packages_apps_GmsCore/issues/693) |
 | [Uber][uber], [UberEats][ubereats] | `4.250.10002` - and all versions before/after | `0.2.6.15181-79-895c63c` (tried with both Maps API v1 and v2) | LineageOS 15.1 | Google Pixel XL | Map does not work at all. The cars stay stuck wherever they are on the map when dragging through it, making it impossible to tell where the driver is relative to the pickup. Additionally, the map itself glitches when dragging. | Has a [working version](https://github.com/microg/android_packages_apps_GmsCore/issues/994#issuecomment-580296299) | :white_check_mark: mostly fixed with microG 0.2.7.17455-**mapbox** | **[#148 (closed)][uber-issue]**, [#685][uber-issue-2], [#690][uber-issue-3], [#701][uber-issue-4] [#835][uber-issue-5]
 | [Windfinder][Windfinder] | `3.1.2` - and all versions before | `0.2.4-108-gf1cdb48` | LineageOS 14.1 | LG G3 D722 |does not deliver map contents, only background map, but not map overlay, containing the wind force info e.g.  |  | minor issue  |  | 
+| [Yandex.Taxi][Yandex.Taxi] | all? | `0.2.10.19420` | LineageOS 16.0 | Xiaomi Mi8 | shows map but crashes when i want to log in  |  |  | [#987][yandex-issue] | 
 
 [bo-android]: https://play.google.com/store/apps/details?id=org.blitzortung.android.app
 [cabify]: https://play.google.com/store/apps/details?id=com.cabify.rider
@@ -71,3 +72,5 @@ If you aren't sure whether you are running a Mapbox build or not, in the about s
 [uber-issue-4]: https://github.com/microg/android_packages_apps_GmsCore/issues/701
 [uber-issue-5]: https://github.com/microg/android_packages_apps_GmsCore/issues/835
 [Windfinder]: https://play.google.com/store/apps/details?id=com.studioeleven.windfinder
+[Yandex.Taxi]: https://play.google.com/store/apps/details?id=ru.yandex.taxi
+[yandex-issue]: https://github.com/microg/android_packages_apps_GmsCore/issues/987
