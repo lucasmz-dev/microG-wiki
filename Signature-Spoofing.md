@@ -2,6 +2,7 @@ You need a ROM that supports signature spoofing. Some custom ROMs are patched to
 
 The following ROMs have out-of-box support for signature spoofing.
 * [CarbonROM](https://carbonrom.org/) MicroG will ask for Signature Spoofing authorization
+* [crDroid](https://crdroid.net/) MicroG will ask for Signature Spoofing authorization
 * [OmniROM 5](http://omnirom.org/) (Must be enabled at the bottom of the developer settings first)
 * [OmniROM 6/7](http://omnirom.org/) (Must be enabled in Settings>Apps>Advanced(gear icon)>Additional permissions>Spoof signature)
 * [MarshRom](http://marshrom.github.io/) (Must be enabled in Settings>Apps>Advanced(gear icon)>Additional permissions>Spoof signature)
