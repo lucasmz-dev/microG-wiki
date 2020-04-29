@@ -21,6 +21,9 @@ To build _GmsCore_, execute in your cloned directory
 ```bash
 ./gradlew build
 ```
+Gradle will tell you about which Android SDK packages are missing. UnifiedNLP will require one more dependency (see https://github.com/microg/android_packages_apps_UnifiedNlp/blob/master/unifiednlp-compat/build.gradle). Install them using `$ANDROID_SDK_PATH/tools/bin/sdkmanager "platforms;android-27" "platforms;android-28" "build-tools;29.0.2"`. 
+
+
 The generated apks can be found in the subdirectory `play-services-core/build/outputs/apk/`.
 
 You may want to sign your apk using the following commands in the `apk` directory with your specific configuration:
