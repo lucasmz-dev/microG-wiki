@@ -1,1 +1,0 @@
-https://microg.org/sdk/sys-img.xml
