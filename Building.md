@@ -55,6 +55,7 @@ cd android_packages_apps_GmsCore
 git submodule update --init --recursive
 echo "sdk.dir=$ANDROID_SDK_PATH" > local.properties
 echo "sdk-location=$ANDROID_SDK_PATH" >> local.properties
+echo "org.gradle.jvmargs=-Xmx2048m -XX:+HeapDumpOnOutOfMemoryError" >> local.properties
 ./gradlew build
 cp play-services-core/build/outputs/apk/release/play-services-core-release-unsigned.apk ../outputs/play-services-core-release.apk
 
