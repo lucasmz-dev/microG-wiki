@@ -11,7 +11,6 @@ Get the source code and clone it into your directory of choice:
 ```bash
 git clone https://github.com/microg/android_packages_apps_GmsCore.git
 cd android_packages_apps_GmsCore/
-git submodule update --recursive --init
 ```
 
 The cloned repository contains all required build scripts for gradle and the wrapper, which is needed to start the build process. Make sure you have your `ANDROID_SDK_HOME` and `JAVA_HOME` properly defined in your `~/.profile` or `~/.bashrc`. 
@@ -19,10 +18,12 @@ It currently works with Java 8, newer versions might cause exceptions.
 
 To build _GmsCore_, execute in your cloned directory
 ```bash
+touch local.properties
 ./gradlew build
 ```
 Gradle will tell you about which Android SDK packages are missing. UnifiedNLP will require one more dependency (see https://github.com/microg/android_packages_apps_UnifiedNlp/blob/master/unifiednlp-compat/build.gradle). Install them using `$ANDROID_SDK_PATH/tools/bin/sdkmanager "platforms;android-27" "platforms;android-28" "build-tools;29.0.2"`. 
 
+If you run out of memory while building, raise the limit by adding for example `org.gradle.jvmargs=-Xmx2048m -XX:+HeapDumpOnOutOfMemoryError` to `gradle.properties`
 
 The generated apks can be found in the subdirectory `play-services-core/build/outputs/apk/`.
 
@@ -52,7 +53,6 @@ keytool -genkey -v -keystore $KEYSTORES_PATH/playservices.jks -alias playservice
 # GMSCore
 git clone https://github.com/microg/android_packages_apps_GmsCore.git
 cd android_packages_apps_GmsCore
-git submodule update --init --recursive
 echo "sdk.dir=$ANDROID_SDK_PATH" > local.properties
 echo "sdk-location=$ANDROID_SDK_PATH" >> local.properties
 # Add some memory to avoid build problems
