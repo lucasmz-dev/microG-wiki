@@ -1,8 +1,7 @@
 ## Prerequisites
 
-Due to the use of symlinks, a unix-based operating system is required. Make sure you configured a full-working build setup and have Android SDK and Java installed properly. 
-
-Please note that building with other operating systems is not officially supported.
+Make sure you configured a full-working build setup and have Android SDK and Java installed properly. 
+Please note that building with other operating systems than Linux is not officially supported.
 
 ## Build stand-alone App with Gradle
 
@@ -98,26 +97,6 @@ When doing so, `./gradlew build` will produce the final file at `play-services-c
 
 ## Integrate GmsCore in AOSP-based ROM
 
-In case you want to integrate _GmsCore_ into an [AOSP-based ROM build](https://source.android.com/source/initializing.html), you can add its repository to your `local_manifests.xml` to keep it updated by `repo`:
-
-```xml
-<remote  name="github"
-             fetch="https://github.com/" />
-
-<project path="packages/apps/GmsCore" name="microg/android_packages_apps_GmsCore" remote="github" revision="master" />
-```
-You may want to add `<project ... />` lines for _GsfProxy_ and _FakeStore/BlankStore_, too.
-
-Now edit your `device.mk` in `~/path_to_aosp/device/your_manufacturer/your_model`
-and add the package names you want to include in your build:
-
-```Makefile
-# OTHER PACKAGES
-PRODUCT_PACKAGES += \
-   GmsCore \
-   GsfProxy \
-   FakeStore
-```
-The default android build process will respect *GmsCore* and automatically create an APK on the `/system` partition image.
+Direct build as part of AOSP is no longer supported. Please build a signed or unsigned APK using gradle and then use it as a prebuilt to AOSP build system.
 
 Please note, that to make _GmsCore_ work, your ROM has to support [Signature Spoofing](https://github.com/microg/android_packages_apps_GmsCore/wiki/Signature-Spoofing).
