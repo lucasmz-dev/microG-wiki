@@ -12,7 +12,6 @@ If you aren't sure whether you are running a Mapbox build or not, in the about s
 
 | App                        | App Version     | microG Version       | OS             | Phone      | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Problem&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Workaround | Usable | Related issue |
 |----------------------------|-----------------|----------------------|----------------|------------|---------|------------|--------|---------------|
-| [Blitzortung Lightning Monitor][bo-android]              | `1.6.3_206` | `0.2.4-111-gf1cdb48` | LineageOS 14.1 | Moto G3 |     will not install, not show map    | flash mapAPI v1 before installing |  | |
 | [Cabify][cabify]         | `7.1.10`        | `0.2.4-111-gf1cdb48` | OmniROM  8.1.0-20180422 | Xiaomi Redmi Note 4 | crashes with NullPointerException (right after selecting a pickup address) | | :warning: | [525][cabify-issue] | |
 | [car2go][car2go]         | `3.23.4`        | `0.2.4-111-gf1cdb48` | LineageOS 15.1 (15.1-20180731-microG-oneplus3) | OnePlus 3T | Requires update of Google Play Services | :heavy_check_mark: fixed with v0.2.6.13280 | :heavy_check_mark: | [590][car2go-issue] | |
 | [car2go][car2go]         | `3.36.6`        | `0.2.6.13280` | LineageOS 15.1 (15.1-2019220-microG-oneplus3) | OnePlus 3T | crash on startup (fixed)|  | :heavy_check_mark: | [711][car2go-issue] | |
