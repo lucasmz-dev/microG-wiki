@@ -26,7 +26,7 @@ If you aren't sure whether you are running a Mapbox build or not, in the about s
 | [free2move][free2move]              | `12.3.0` | `0.2.6-14799-dirty-145` | LineageOS 15.1 | Xiaomi Mi6 |Sometimes vehicles on the map are not displayed| Workaround 1: Restart the App sometimes - Workaround 2: Open Google Maps and locate yourself with GPS, then reopen Free2Move | |
 | [Hangouts][hangouts] | `23.0.172956998` | `0.2.5-12879` | LineageOS 14.1 | | crashes on startup | [workaround](https://github.com/microg/android_packages_apps_GmsCore/issues/72#issuecomment-303714674) | | [72](https://github.com/microg/android_packages_apps_GmsCore/issues/72) |
 | [hoy milonga Berlin][hoy milonga Berlin] | `1.3` - and all versions before | `0.2.4-108-gf1cdb48` | LineageOS 14.1 | LG G3 D722 |crashes when "show map" icon is tapped|  | minor issue |  |
-| [Lidl Plus][lidl plus] | `14.26.1` | `0.2.12.203315` | LineageOS 17.1 | Xiaomi Mi A1 | Crashes before loading map for selecting store location | Flash microG Maps API (mapsv1) | :heavy_check_mark: : | |
+| [Lidl Plus][lidl plus] | `14.26.1` | `0.2.12.203315` | LineageOS 17.1 | Xiaomi Mi A1 | Crashes before loading map for selecting store location | Flash microG Maps API (mapsv1) | :heavy_check_mark: | |
 | [Lyft][lyft]         | `5.18.3.1520427999`        | `0.2.4-108-g464d45d` | DotOS 1.2 | Moto G5 | Display of map has issues, choosing a destination doesn't work at all without a workaround | [workaround](https://github.com/microg/android_packages_apps_GmsCore/issues/207#issuecomment-299622678) | :warning: | [207](https://github.com/microg/android_packages_apps_GmsCore/issues/207) |  
 | [Messenger Lite][mlite] | `73.0.1.15.241`         | `0.2.10.19420` | LineageOS 16.0 | Xiaomi Pocophone F1 | Sometimes notification don't appear, sometimes seems to crash microg | | :warning: | |
 | [N26][n26] | `3.32.1` | `0.2.8.1.7785-mapbox` | LineageOS 16.0 | Xperia XA2 | App crashes when opening the map | | :warning: | [928](https://github.com/microg/android_packages_apps_GmsCore/issues/928)
@@ -56,9 +56,9 @@ If you aren't sure whether you are running a Mapbox build or not, in the about s
 [ebaykleinanzeigen]: https://play.google.com/store/apps/details?id=com.ebay.kleinanzeigen
 [free2move]: https://play.google.com/store/apps/details?id=com.ghm.carjump
 [hangouts]: https://play.google.com/store/apps/details?id=com.google.android.talk
-[hoy milonga berlin]: https://play.google.com/store/apps/details?id=com.hoy.berlin&hl=de
+[hoy milonga berlin]: https://play.google.com/store/apps/details?id=com.hoy.berlin
 [lidl plus]: https://play.google.com/store/apps/details?id=com.lidl.eci.lidlplus
-[Lyft]: https://play.google.com/store/apps/details?id=me.lyft.android&hl=de
+[Lyft]: https://play.google.com/store/apps/details?id=me.lyft.android
 [mlite]: https://play.google.com/store/apps/details?id=com.facebook.mlite
 [N26]: https://play.google.com/store/apps/details?id=de.number26.android
 [nina]: https://play.google.com/store/apps/details?id=de.materna.bbk.mobile.app
