@@ -9,7 +9,7 @@ The following ROMs have out-of-box support for signature spoofing.
 * [AospExtended](http://www.aospextended.com/) (Must be enabled in Settings>Apps>Advanced(gear icon)>App Permissions>Spoof package signature)
 * [LineageOS bundled with microG](https://lineage.microg.org/)
 
-Also there is another maintained list of [a custom ROMs that include the signature spoofing patch](https://forum.xda-developers.com/showpost.php?p=71042083).
+Also there is another maintained list of [custom ROMs that include the signature spoofing patch](https://forum.xda-developers.com/showpost.php?p=71042083).
 
 
 If you have the **Xposed Framework** installed, the following module will enable signature spoofing: [FakeGApps by thermatk](http://repo.xposed.info/module/com.thermatk.android.xf.fakegapps)
