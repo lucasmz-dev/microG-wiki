@@ -21,8 +21,6 @@ GmsCore includes the Unified Network Location Provider module (UnifiedNlp) which
 For a full-working microG setup, you may consider to install a PlayStore replacement application as well as the Services Framework Proxy (GsfProxy) module to provide Google's push messaging service. See also [Installation](https://github.com/microg/android_packages_apps_GmsCore/wiki/Installation).
 
 ### Project status
-This is alpha-grade software and not yet ready for production use. __Do not use if you don't know what you're doing.__
-
 The current status of implemented APIs is documented [on this wiki page](https://github.com/microg/android_packages_apps_GmsCore/wiki/Implementation-Status).
 
 ### Contributions welcome!
