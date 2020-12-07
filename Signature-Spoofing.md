@@ -6,7 +6,7 @@ The following ROMs have out-of-box support for signature spoofing.
 * [OmniROM 5](http://omnirom.org/) (Must be enabled at the bottom of the developer settings first)
 * [OmniROM 6/7](http://omnirom.org/) (Must be enabled in Settings>Apps>Advanced(gear icon)>Additional permissions>Spoof signature)
 * [MarshRom](http://marshrom.github.io/) (Must be enabled in Settings>Apps>Advanced(gear icon)>Additional permissions>Spoof signature)
-* [AospExtended](http://www.aospextended.com/) (Must be enabled in Settings>Apps>Advanced(gear icon)>App Permissions>Spoof package signature)
+* [AospExtended](http://www.aospextended.com/) (Must be enabled in Settinghttps://github.com/microg/GmsCore/wiki/Signature-Spoofing/_edits>Apps>Advanced(gear icon)>App Permissions>Spoof package signature)
 * [LineageOS bundled with microG](https://lineage.microg.org/)
 
 Also there is another maintained list of [custom ROMs that include the signature spoofing patch](https://forum.xda-developers.com/showpost.php?p=71042083).
@@ -18,6 +18,6 @@ You can also **patch your already-install ROM** by flashing [NanoDroid-patcher](
 
 Finally, if you have **Root**, but are not using Xposed, you can try patching your already-installed ROM using [Needle by moosd](https://github.com/moosd/Needle) (or its fork [Tingle by ale5000](https://github.com/ale5000-git/tingle)) or [Haystack by Lanchon](https://github.com/Lanchon/haystack). Haystack can optionally add a simple UI to control spoofing similar to the one offered by OmniROM 5. Note that all 3 patchers require that the ROM to be patched is **not odexed**.
 
-If you are a **ROM developer** or just do **custom builds** for whatever reason, you can download and include the patch from [here](https://github.com/microg/android_packages_apps_GmsCore/tree/master/patches). Once you've downloaded the correct patch for your build version, change to the `frameworks/base` directory of your build tree and run `patch -p1 -i "path/to/where/you/saved/the/patch"`, changing the path to the appropriate path of where you saved the patch file. If it runs without error, your build will have Signature Spoofing enabled.
+If you are a **ROM developer** or just do **custom builds** for whatever reason, you can download and include the patch from [here](https://github.com/lineageos4microg/docker-lineage-cicd/tree/master/src/signature_spoofing_patches). Once you've downloaded the correct patch for your build version, change to the `frameworks/base` directory of your build tree and run `patch -p1 -i "path/to/where/you/saved/the/patch"`, changing the path to the appropriate path of where you saved the patch file. If it runs without error, your build will have Signature Spoofing enabled.
 
 microG GmsCore tests and diagnoses signature spoofing, but unfortunately it cannot be installed on devices that have Google services. For testing on such devices you can use [Signature Spoofing Checker](https://github.com/Lanchon/sigspoof-checker) instead.
