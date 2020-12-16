@@ -6,7 +6,7 @@
 | Cast | :warning: Partial | :warning: Maybe | Minor issues |
 | Drive | ✔️ : Full | :warning: Maybe | |
 | Exposure Notifications | ✔️ : Full | :heavy_check_mark:  No | [🦠 Exposure Notifications](https://github.com/microg/android_packages_apps_GmsCore/labels/%F0%9F%A6%A0%20Exposure%20Notifications) |
-| FIDO/FIDO2 | :x: None | :warning: Maybe | |
+| FIDO2/U2F | :x: None | :warning: Maybe | [#849](https://github.com/microg/GmsCore/issues/849), Not implemented |
 | Firebase Analytics | :white_check_mark: Not intended | :warning: Maybe | |
 | Firebase Cloud Messaging | :heavy_check_mark: Full | :heavy_check_mark: No | |
 | Fitness | :x: None | :warning: Maybe | |
