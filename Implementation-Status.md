@@ -21,5 +21,5 @@
 | Nearby | :x: None | :warning: Maybe | |
 | Plus | :x: None | :warning: Maybe | Google discontinued Google Plus, making µG's implementation useless |
 | SafetyNet | :warning: Partial | :heavy_check_mark: No | [#526](https://github.com/microg/android_packages_apps_GmsCore/issues/526), [#24](https://github.com/microg/android_packages_apps_RemoteDroidGuard/issues/24) |
-| Vision | :x: None | :warning: Maybe | [#395](https://github.com/microg/android_packages_apps_GmsCore/issues/395), [#670](https://github.com/microg/android_packages_apps_GmsCore/issues/670) |
+| Vision | :warning: Partial | :warning: Maybe | Only Barcode scanning. [#395](https://github.com/microg/android_packages_apps_GmsCore/issues/395), [#670](https://github.com/microg/android_packages_apps_GmsCore/issues/670) |
 | Wearable | :x: None | :warning: Maybe | [#4](https://github.com/microg/android_packages_apps_GmsCore/issues/4), Missing most APIs |
