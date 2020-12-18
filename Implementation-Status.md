@@ -9,6 +9,7 @@
 | FIDO2/U2F | :x: None | :warning: Maybe | [#849](https://github.com/microg/GmsCore/issues/849), Not implemented |
 | Firebase Analytics | :white_check_mark: Not intended | :warning: Maybe | |
 | Firebase Cloud Messaging | :heavy_check_mark: Full | :heavy_check_mark: No | |
+| Firebase Auth | :warning: Partial | :warning: Maybe | [#1198](https://github.com/microg/GmsCore/issues/1198),[#1281](https://github.com/microg/GmsCore/issues/1281) **Supported methods**: Anonymous login, Email/Password login, Phone login, Custom-Token login **Not supported methods**: GoogleSignIn, FirebaseUI |
 | Fitness | :x: None | :warning: Maybe | |
 | [Fonts](https://developer.android.com/guide/topics/ui/look-and-feel/downloadable-fonts#via-android-studio) | :x: None | :heavy_check_mark: No | [#797](https://github.com/microg/android_packages_apps_GmsCore/issues/797), Not implemented |
 | Fused Locations | :heavy_check_mark: Full | :heavy_check_mark: No | Does not honor AppOps! |
