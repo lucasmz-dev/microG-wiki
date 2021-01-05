@@ -6,7 +6,7 @@ The following ROMs have out-of-box support for signature spoofing.
 * [OmniROM 5](http://omnirom.org/) (Must be enabled at the bottom of the developer settings first)
 * [OmniROM 6/7](http://omnirom.org/) (Must be enabled in Settings>Apps>Advanced(gear icon)>Additional permissions>Spoof signature)
 * [MarshRom](http://marshrom.github.io/) (Must be enabled in Settings>Apps>Advanced(gear icon)>Additional permissions>Spoof signature)
-* [AospExtended](http://www.aospextended.com/) (Must be enabled in Settinghttps://github.com/microg/GmsCore/wiki/Signature-Spoofing/_edits>Apps>Advanced(gear icon)>App Permissions>Spoof package signature)
+* [AospExtended](http://www.aospextended.com/) (Must be enabled in Settings>Apps>Advanced(gear icon)>App Permissions>Spoof package signature)
 * [LineageOS bundled with microG](https://lineage.microg.org/)
 
 Also there is another maintained list of [custom ROMs that include the signature spoofing patch](https://forum.xda-developers.com/showpost.php?p=71042083).
