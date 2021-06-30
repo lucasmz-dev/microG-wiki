@@ -2,12 +2,12 @@ You need a ROM that supports signature spoofing. Some custom ROMs are patched to
 
 The following ROMs have out-of-box support for signature spoofing.
 * [AospExtended](http://www.aospextended.com/): Must be enabled in Settings > Apps > Advanced (gear icon) > App Permissions > Spoof package signature
-* [ArrowOS](https://arrowos.net/): MicroG will ask for Signature Spoofing authorization
-* [CalyxOS](https://calyxos.org/): bundled with microG
-* [CarbonROM](https://carbonrom.org/): MicroG will ask for Signature Spoofing authorization
-* [crDroid](https://crdroid.net/): MicroG will ask for Signature Spoofing authorization
-* [/e/](https://e.foundation): bundled with microG
-* [LineageOS for microG](https://lineage.microg.org/): bundled with microG
+* [ArrowOS](https://arrowos.net/): microG will ask for Signature Spoofing authorization
+* [CalyxOS](https://calyxos.org/): Bundled with microG
+* [CarbonROM](https://carbonrom.org/): microG will ask for Signature Spoofing authorization
+* [crDroid](https://crdroid.net/): microG will ask for Signature Spoofing authorization
+* [/e/](https://e.foundation): Bundled with microG
+* [LineageOS for microG](https://lineage.microg.org/): Bundled with microG
 * [OmniROM 5](http://omnirom.org/): Must be enabled at the bottom of the developer settings first
 * [OmniROM 6/7](http://omnirom.org/): Must be enabled in Settings > Apps > Advanced (gear icon) > Additional permissions > Spoof signature
 * [MarshRom](http://marshrom.github.io/): Must be enabled in Settings > Apps > Advanced (gear icon) > Additional permissions > Spoof signature
