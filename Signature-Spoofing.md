@@ -19,7 +19,7 @@ If you have the **Xposed Framework** installed, the following module will enable
 
 Xposed solution for android 11 and 12 consists of the magisk modules "Riru" and "Riru - LSPosed" and [FakeGApps fork by whew-inc](https://github.com/whew-inc/FakeGApps/releases)
 
-You can also **patch your already-install ROM** by flashing [NanoDroid-patcher](https://github.com/Nanolx/NanoDroid), without any computer interaction. It will auto-patch every updated ROM.
+You can also **patch your already-install ROM** (up to android 10) by flashing [NanoDroid-patcher](https://github.com/Nanolx/NanoDroid), without any computer interaction. It will auto-patch every updated ROM.
 
 Finally, if you have **Root**, but are not using Xposed, you can try patching your already-installed ROM using [Needle by moosd](https://github.com/moosd/Needle) (or its fork [Tingle by ale5000](https://github.com/ale5000-git/tingle)) or [Haystack by Lanchon](https://github.com/Lanchon/haystack). Haystack can optionally add a simple UI to control spoofing similar to the one offered by OmniROM 5. Note that all 3 patchers require that the ROM to be patched is **not odexed**.
 
