@@ -16,6 +16,7 @@ Also there is another maintained list of [custom ROMs that include the signature
 
 
 If you have the **Xposed Framework** installed, the following module will enable signature spoofing: [FakeGApps by thermatk](http://repo.xposed.info/module/com.thermatk.android.xf.fakegapps)
+Xposed solution for android 11 and 12 consists of the magisk modules "Riru" and "Riru - LSPosed" and [FakeGApps fork by whew-inc] (https://github.com/whew-inc/FakeGApps/releases)
 
 You can also **patch your already-install ROM** by flashing [NanoDroid-patcher](https://github.com/Nanolx/NanoDroid), without any computer interaction. It will auto-patch every updated ROM.
 
