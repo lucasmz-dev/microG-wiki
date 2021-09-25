@@ -7,7 +7,7 @@ Standard and Nightly updates are provided through the [microG F-Droid repository
 As microG apps are in rapid development, please consider using the F-Droid repository to always have the newest version. If you know what you are doing, you can find links to APKs below.
 
 ### GmsCore
-Official releases/nightlies: [GitHub release page](https://linkify.me/NrDOQQs) and [download website](https://microg.org/dl/)
+Official releases/nightlies: [GitHub release page](https://linkify.me/uCTjyZq) and [download website](https://microg.org/dl/)
 
 ### GsfProxy
 Official releases/nightlies: [Github release page](https://linkify.me/xQE5SQg) and [download website](https://microg.org/dl/)
