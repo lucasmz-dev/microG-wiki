@@ -2,7 +2,7 @@
 |-----|---------------|----------|--------|
 | Account Authentication | :warning: Partial | :warning: Maybe | Major regressions in 0.2.7.17455, fixed in [4713797edc](https://github.com/microg/android_packages_apps_GmsCore/commit/4713797edc21e3f3b2a26194056f63b307e67ef6) (0.2.8.17785) |
 | Analytics | :white_check_mark:  Not intended | :heavy_check_mark: No | | 
-| Auto | :x: None | :x: Yes | |
+| Auto | :x: None | :heavy_check_mark: No | It may works if the official Android Auto apk is installed as privileged application |
 | Cast | :warning: Partial | :warning: Maybe | Minor issues |
 | Drive | ✔️ : Full | :warning: Maybe | |
 | Exposure Notifications | ✔️ : Full | :heavy_check_mark:  No | [🦠 Exposure Notifications](https://github.com/microg/android_packages_apps_GmsCore/labels/%F0%9F%A6%A0%20Exposure%20Notifications) |
