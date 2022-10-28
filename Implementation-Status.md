@@ -4,8 +4,8 @@
 | Analytics | :white_check_mark:  Not intended | :heavy_check_mark: No | | 
 | Auto | :x: None | :heavy_check_mark: No | It may works if the official Android Auto apk is installed as privileged application |
 | Cast | :warning: Partial | :warning: Maybe | Minor issues |
-| Drive | ✔️ : Full | :warning: Maybe | |
-| Exposure Notifications | ✔️ : Full | :heavy_check_mark:  No | [🦠 Exposure Notifications](https://github.com/microg/android_packages_apps_GmsCore/labels/%F0%9F%A6%A0%20Exposure%20Notifications) |
+| Drive | :heavy_check_mark: Full | :warning: Maybe | |
+| Exposure Notifications | :heavy_check_mark: Full | :heavy_check_mark:  No | [🦠 Exposure Notifications](https://github.com/microg/android_packages_apps_GmsCore/labels/%F0%9F%A6%A0%20Exposure%20Notifications) |
 | FIDO2/U2F | :white_check_mark: Partial | :warning: Maybe | [#849](https://github.com/microg/GmsCore/issues/849), currently FIDO/FIDO2 security keys can be connected only via USB or NFC |
 | Firebase Analytics | :white_check_mark: Not intended | :warning: Maybe | |
 | Firebase Cloud Messaging | :heavy_check_mark: Full | :heavy_check_mark: No | |
