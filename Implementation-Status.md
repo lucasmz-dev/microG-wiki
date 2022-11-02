@@ -6,7 +6,7 @@
 | Cast | :warning: Partial | :warning: Maybe | Minor issues |
 | Drive | :heavy_check_mark: Full | :warning: Maybe | |
 | Exposure Notifications | :heavy_check_mark: Full | :heavy_check_mark:  No | [🦠 Exposure Notifications](https://github.com/microg/android_packages_apps_GmsCore/labels/%F0%9F%A6%A0%20Exposure%20Notifications) |
-| FIDO2/U2F | **✓** Partial | :warning: Maybe | [#849](https://github.com/microg/GmsCore/issues/849), currently FIDO/FIDO2 security keys can be connected only via USB or NFC |
+| FIDO2/U2F | :white_check_mark: Partial | :warning: Maybe | [#849](https://github.com/microg/GmsCore/issues/849), currently FIDO/FIDO2 security keys can be connected only via USB or NFC |
 | Firebase Analytics | ✝️ Not intended | :warning: Maybe | |
 | Firebase Cloud Messaging | :heavy_check_mark: Full | :heavy_check_mark: No | |
 | Firebase Auth | :warning: Partial | :warning: Maybe | [#1198](https://github.com/microg/GmsCore/issues/1198),[#1281](https://github.com/microg/GmsCore/issues/1281) **Supported methods**: Anonymous login, Email/Password login, Phone login, Custom-Token login **Not supported methods**: GoogleSignIn, FirebaseUI |
@@ -17,9 +17,9 @@
 | Geofencing | :x: None | :warning: Maybe | |
 | Maps API version 1| :heavy_check_mark:  Full | :heavy_check_mark:  No | |
 | Maps API version 2| :warning:  Partially | :warning: Probably | Many unimplemented APIs. **Use Mapbox build**! |
-| Maps API version 2 (Mapbox)| **✓** Mostly | :warning: Maybe | Minor glitches |
+| Maps API version 2 (Mapbox)| :white_check_mark: Mostly | :warning: Maybe | Minor glitches |
 | Mobile Ads | ✝️ Not intended | :heavy_check_mark: No | | 
 | Nearby | :x: None | :warning: Maybe | |
-| SafetyNet | **✓** Mostly | :heavy_check_mark: No | |
+| SafetyNet | :white_check_mark: Mostly | :heavy_check_mark: No | |
 | Vision | :warning: Partial | :warning: Maybe | Only Barcode scanning. [#395](https://github.com/microg/android_packages_apps_GmsCore/issues/395), [#670](https://github.com/microg/android_packages_apps_GmsCore/issues/670) |
 | Wearable | :x: None | :warning: Maybe | [#4](https://github.com/microg/android_packages_apps_GmsCore/issues/4), Missing most APIs |
