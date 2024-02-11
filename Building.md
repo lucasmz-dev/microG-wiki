@@ -13,7 +13,7 @@ cd android_packages_apps_GmsCore/
 ```
 
 The cloned repository contains all required build scripts for gradle and the wrapper, which is needed to start the build process. Make sure you have your `ANDROID_SDK_HOME` and `JAVA_HOME` properly defined in your `~/.profile` or `~/.bashrc`. 
-It currently works with Java 8, newer versions might cause exceptions.
+It currently works with Java 17, newer versions might cause exceptions.
 
 To build _GmsCore_, execute in your cloned directory
 ```bash
