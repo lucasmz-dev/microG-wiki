@@ -1,7 +1,7 @@
 You need a ROM that supports signature spoofing. Some custom ROMs are patched to support signature spoofing out of the box, however most ROMs will require a patch or a Xposed module. Please ask your ROM developer if unsure.
 
 The following ROMs have out-of-box support for signature spoofing.
-* [CalyxOS](https://calyxos.org/): Bundled with microG
+* [CalyxOS](https://calyxos.org/): microG can be enabled in the setup
 * [crDroid](https://crdroid.net/): microG will ask for Signature Spoofing authorization
 * [/e/](https://e.foundation): Bundled with microG
 * [iodéOS](https://iode.tech): Bundled with microG
