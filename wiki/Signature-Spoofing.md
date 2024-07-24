@@ -9,9 +9,6 @@ The following ROMs have out-of-box support for signature spoofing.
 * [LineageOS](https://lineageos.org): microG can be installed and used as an user app
 * [LineageOS for microG](https://lineage.microg.org/): Bundled with microG
 
-Also there is another maintained list of [custom ROMs that include the signature spoofing patch](https://forum.xda-developers.com/showpost.php?p=71042083).
-
-
 If you have the **Xposed Framework** installed, the following module will enable signature spoofing: [FakeGApps by thermatk](http://repo.xposed.info/module/com.thermatk.android.xf.fakegapps)
 
 Xposed solution for android 11 and 12 consists of the magisk modules "Riru" and "Riru - LSPosed" and [FakeGApps fork by whew-inc](https://github.com/whew-inc/FakeGApps/releases)
