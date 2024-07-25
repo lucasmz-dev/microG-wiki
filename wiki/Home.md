@@ -19,7 +19,7 @@ Your Android system needs to support [signature spoofing](/wiki/Signature-Spoofi
 For a full-working microG setup, you may consider to install a PlayStore replacement application as well as the Services Framework Proxy (GsfProxy) module to provide Google's push messaging service. See also [Installation](/wiki/Installation).
 
 ### Project status
-The current status of implemented APIs is documented [on this wiki page](/outdated_wiki/Implementation-Status).
+The current status of implemented APIs is documented [on this wiki page](/wiki/.outdated/Implementation-Status).
 
 ### Contributions welcome!
 Please report bugs and include logs, screenshots, version numbers and device information depending on what issue you observed. Also, do not bother to contact the author of third-party apps when it might be related to microG services. If you created a logcat, but fear or know it contains sensitive data, you can send a private message.
