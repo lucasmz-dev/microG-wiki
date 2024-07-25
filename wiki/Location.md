@@ -31,3 +31,7 @@ More information on how to contribute and use the service is available [in their
 To use it in microG, simply go into Location > Three dots at top right > Configure service URL > replace with https://beacondb.net. API keys are currently not required or used.
 
 > Make sure to have "Request from Mozilla" enabled when using any of these.
+
+# [Nominatim](https://nominatim.org/)
+
+Nominatim is used for address resolving. It means it is used for translating addresses to coordinates, and vice-versa. It is an online service.
