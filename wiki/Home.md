@@ -2,7 +2,7 @@
 ===
 
 ### Overview
-microG GmsCore is a free software reimplementation of Google's Play Services. It allows applications calling proprietary Google APIs to run on AOSP-based ROMs like LineageOS, acting as a free replacement for the non-free, proprietary [Google Play Services](https://en.wikipedia.org/wiki/Google_Play_Services) (sometimes referred to as the more generic term "GApps"). It is a powerful tool to reclaim your privacy and freedom while enjoying Android core features (although apps you use that take advantage of it may still be using proprietary libraries to communicate with microG, just as they do when communicating with the actual Google Play Services).
+microG GmsCore is a free software re-implementation of Google's Play Services. It allows applications calling proprietary Google APIs to run on AOSP-based ROMs like LineageOS, acting as a free replacement for the non-free, proprietary [Google Play Services](https://en.wikipedia.org/wiki/Google_Play_Services) (sometimes referred to as the more generic term "GApps"). It is a powerful tool to reclaim your privacy and freedom while enjoying Android core features (although apps you use that take advantage of it may still be using proprietary libraries to communicate with microG, just as they do when communicating with the actual Google Play Services).
 
 ### Features
 - Opt-in to Google Services and extend application support
@@ -24,4 +24,4 @@ The current status of implemented APIs is documented [on this wiki page](/wiki/.
 ### Contributions welcome!
 Please report bugs and include logs, screenshots, version numbers and device information depending on what issue you observed. Also, do not bother to contact the author of third-party apps when it might be related to microG services. If you created a logcat, but fear or know it contains sensitive data, you can send a private message.
 
-Thanks for continously supporting this project with feedback, pull requests and donations!
+Thanks for continuously supporting this project with feedback, pull requests and donations!
