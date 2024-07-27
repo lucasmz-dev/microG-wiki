@@ -1,11 +1,11 @@
 # microG wiki
 
-This is a *soft-*fork from the [microG/GmsCore GitHub wiki](https://github.com/microg/GmsCore/wiki).
+This is a soft-fork from the [microG/GmsCore GitHub wiki](https://github.com/microg/GmsCore/wiki).
 
 The wiki could use some improvements, this is what this is for.
 The wiki was previously open, but too open, meaning users could contribute but also vandalization happened. With a standard repo, it is possible to approve things with PRs and issues, as well as creating a separate environment from the code.
 
-This wiki is being to be user-centric, not developer-centric at the moment.
+This wiki is being worked on as user-centric, not developer-centric at the moment.
 
 ## Contributing and data
 
