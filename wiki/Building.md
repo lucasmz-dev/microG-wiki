@@ -66,7 +66,7 @@ jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore $KEYSTORES_PATH
 $ANDROID_SDK_PATH/build-tools/22.0.1/zipalign -p -v 4 play-services-core-release.apk com.google.android.gms.apk
 ```
 
-Congratulations, you got your `com.google.android.gms.apk`! Now head over to [Installation](https://github.com/microg/android_packages_apps_GmsCore/wiki/Installation).
+Congratulations, you got your `com.google.android.gms.apk`! Now head over to [Installation](/wiki/Installation).
 
 ### Gradle integrated signing
 You can also sign and zipalign directly as part of the `./gradlew build` call. To do so, create a file `play-services-core/user.gradle` with the following content:
@@ -99,4 +99,4 @@ When doing so, `./gradlew build` will produce the final file at `play-services-c
 
 Direct build as part of AOSP is no longer supported. Please build a signed or unsigned APK using gradle and then use it as a prebuilt to AOSP build system.
 
-Please note, that to make _GmsCore_ work, your ROM has to support [Signature Spoofing](https://github.com/microg/android_packages_apps_GmsCore/wiki/Signature-Spoofing).
+Please note, that to make _GmsCore_ work, your ROM has to support [Signature Spoofing](/wiki/Signature-Spoofing).

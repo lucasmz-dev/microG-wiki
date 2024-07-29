@@ -1,6 +1,6 @@
-Please review the [Prerequisites](https://github.com/microg/android_packages_apps_GmsCore/wiki/Prerequisites) and [Helpful Information](https://github.com/microg/android_packages_apps_GmsCore/wiki/Helpful-Information) before starting installation.
+Please review the [Prerequisites](/wiki/Prerequisites) and [Helpful Information](/wiki/Helpful-Information) before starting installation.
 
-1. **Install apk of microG Services** (see note at the bottom) as provided in the [download section](https://github.com/microg/android_packages_apps_GmsCore/wiki/Downloads) or in the microG F-Droid repository. If you built *GmsCore* using gradle, you can use ```adb install <filename>``` on your computer.
+1. **Install apk of microG Services** (see note at the bottom) as provided in the [download section](/wiki/Downloads) or in the microG F-Droid repository. If you built *GmsCore* using gradle, you can use ```adb install <filename>``` on your computer.
 2. **Install apk of microG Services Framework Proxy** as provided in the download section if you want to use Google Cloud Messaging ("Push-Notifications"). The GsfProxy version does not need to match the GmsCore.apk version and is installable without higher privileges.
 3. **Install a store apk**
    * If you have BlankStore installed, continue with the next step.
