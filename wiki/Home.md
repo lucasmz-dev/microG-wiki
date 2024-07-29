@@ -1,4 +1,4 @@
-<img src="http://i.imgur.com/hXY4lcC.png" height="45px" alt="microg logo"/> GmsCore
+<img src="/assets/microg_full_colored.svg" height="45px" alt="microg logo"/> GmsCore
 ===
 
 ### Overview
