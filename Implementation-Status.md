@@ -6,7 +6,7 @@
 | Cast | :warning: Partial | :warning: Maybe | Minor issues |
 | Drive | :heavy_check_mark: Full | :warning: Maybe | |
 | Exposure Notifications | :heavy_check_mark: Full | :heavy_check_mark:  No | [🦠 Exposure Notifications](https://github.com/microg/android_packages_apps_GmsCore/labels/%F0%9F%A6%A0%20Exposure%20Notifications) |
-| FIDO2/U2F | :white_check_mark: Mostly | :warning: Maybe | [#849](https://github.com/microg/GmsCore/issues/849), currently FIDO/FIDO2 security keys can be connected only via USB or NFC |
+| FIDO2/U2F | :white_check_mark: Mostly | :heavy_check_mark: No | [#849](https://github.com/microg/GmsCore/issues/849), currently FIDO/FIDO2 security keys can be connected only via USB or NFC |
 | Firebase Analytics | ✝️ Not intended | :warning: Maybe | |
 | Firebase Cloud Messaging | :heavy_check_mark: Full | :heavy_check_mark: No | |
 | Firebase Auth | :warning: Partial | :warning: Maybe | [#1198](https://github.com/microg/GmsCore/issues/1198),[#1281](https://github.com/microg/GmsCore/issues/1281) **Supported methods**: Anonymous login, Email/Password login, Phone login, Custom-Token login **Not supported methods**: GoogleSignIn, FirebaseUI |
