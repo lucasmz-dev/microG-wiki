@@ -15,6 +15,7 @@
 | Fused Locations | :heavy_check_mark: Full | :heavy_check_mark: No | |
 | Games | :x: None | :warning: Maybe | [#163](https://github.com/microg/android_packages_apps_GmsCore/issues/163) |
 | Geofencing | :x: None | :warning: Maybe | |
+| [In-app updates](https://developer.android.com/guide/playcore/in-app-updates) | :x: None | :warning: Maybe | [#2617](https://github.com/microg/GmsCore/issues/2617) | |
 | Maps API version 1| :heavy_check_mark:  Full | :heavy_check_mark:  No | |
 | Maps API version 2| :warning:  Partially | :warning: Probably | Many unimplemented APIs. **Use Mapbox build**! |
 | Maps API version 2 (Mapbox)| :white_check_mark: Mostly | :warning: Maybe | Minor glitches |
