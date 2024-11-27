@@ -10,7 +10,7 @@
 | Firebase Analytics | ✝️ Not intended | :warning: Maybe | |
 | Firebase Cloud Messaging | :heavy_check_mark: Full | :heavy_check_mark: No | |
 | Firebase Auth | :warning: Partial | :warning: Maybe | [#1198](https://github.com/microg/GmsCore/issues/1198),[#1281](https://github.com/microg/GmsCore/issues/1281) **Supported methods**: Anonymous login, Email/Password login, Phone login, Custom-Token login **Not supported methods**: GoogleSignIn, FirebaseUI |
-| Fitness | :x: None | :warning: Maybe | |
+| Fitness | :x: None | :warning: Maybe | [#2600](https://github.com/microg/GmsCore/issues/2600) |
 | [Fonts](https://developer.android.com/guide/topics/ui/look-and-feel/downloadable-fonts#via-android-studio) | :x: None | :heavy_check_mark: No | [#797](https://github.com/microg/android_packages_apps_GmsCore/issues/797), Not implemented |
 | Fused Locations | :heavy_check_mark: Full | :heavy_check_mark: No | |
 | Games | :x: None | :warning: Maybe | [#163](https://github.com/microg/android_packages_apps_GmsCore/issues/163) |
