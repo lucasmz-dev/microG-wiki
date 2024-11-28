@@ -13,7 +13,7 @@
 | Fitness | :x: None | :warning: Maybe | [#2600](https://github.com/microg/GmsCore/pull/2600) |
 | [Fonts](https://developer.android.com/guide/topics/ui/look-and-feel/downloadable-fonts#via-android-studio) | :x: None | :heavy_check_mark: No | [#797](https://github.com/microg/GmsCore/issues/797), Not implemented |
 | Fused Locations | :heavy_check_mark: Full | :heavy_check_mark: No | |
-| Games | :x: None | :warning: Maybe | [#163](https://github.com/microg/GmsCore/issues/163) |
+| Games | :warning: Partial | :warning: Maybe | [#163](https://github.com/microg/GmsCore/issues/163) |
 | Geofencing | :x: None | :warning: Maybe | |
 | [In-app updates](https://developer.android.com/guide/playcore/in-app-updates) | :x: None | :warning: Maybe | [#2617](https://github.com/microg/GmsCore/issues/2617) | |
 | Maps API version 1| :heavy_check_mark:  Full | :heavy_check_mark:  No | |
