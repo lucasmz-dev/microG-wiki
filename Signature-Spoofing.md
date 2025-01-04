@@ -8,7 +8,7 @@ The following ROMs have out-of-box support for signature spoofing.
 * [crDroid](https://crdroid.net/): microG will ask for Signature Spoofing authorization
 * [/e/](https://e.foundation): Bundled with microG
 * [iodéOS](https://iode.tech): Bundled with microG
-* [LineageOS](https://lineageos.org/)
+* [LineageOS](https://lineageos.org/) (from 2024/02/26)
 * [LineageOS for microG](https://lineage.microg.org/): Bundled with microG
 * [OmniROM 5](http://omnirom.org/): Must be enabled at the bottom of the developer settings first
 * [OmniROM 6/7](http://omnirom.org/): Must be enabled in Settings > Apps > Advanced (gear icon) > Additional permissions > Spoof signature
