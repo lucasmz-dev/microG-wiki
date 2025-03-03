@@ -8,8 +8,8 @@ Please note that building with other operating systems than Linux is not officia
 Get the source code and clone it into your directory of choice:
 
 ```bash
-git clone https://github.com/microg/android_packages_apps_GmsCore.git
-cd android_packages_apps_GmsCore/
+git clone https://github.com/microg/GmsCore.git
+cd GmsCore/
 ```
 
 The cloned repository contains all required build scripts for gradle and the wrapper, which is needed to start the build process. Make sure you have your `ANDROID_SDK_HOME` and `JAVA_HOME` properly defined in your `~/.profile` or `~/.bashrc`. 
@@ -50,8 +50,8 @@ keytool -genkey -v -keystore $KEYSTORES_PATH/playservices.jks -alias playservice
 
 
 # GMSCore
-git clone https://github.com/microg/android_packages_apps_GmsCore.git
-cd android_packages_apps_GmsCore
+git clone https://github.com/microg/GmsCore.git
+cd GmsCore/
 echo "sdk.dir=$ANDROID_SDK_PATH" > local.properties
 echo "sdk-location=$ANDROID_SDK_PATH" >> local.properties
 # Add some memory to avoid build problems
