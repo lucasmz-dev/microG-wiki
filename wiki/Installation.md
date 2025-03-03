@@ -1,7 +1,9 @@
 Please review the [Prerequisites](/wiki/Prerequisites) before starting installation.
 
+> [!IMPORTANT]
 > Certain OSes like CalyxOS bundle microG. You should not need to install it if you're using them. If you do not have microG, you might have disabled it at setup. If so, you might need to either use another profile or reset the device.
 
+> [!NOTE]
 > Certain OSes that bundle microG may also build and sign it themselves. You may not be able to install/update microG from official releases. In those cases, only the OS can update microG, and may only update with the system.
 
 ## Installation
